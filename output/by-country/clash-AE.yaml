@@ -9,7 +9,7 @@ proxies:
   port: 8443
   udp: true
   type: vless
-  uuid: 05819bb1-2975-473c-a51f-0fbccf8d2cfa
+  uuid: 17e85193-a95c-4430-9b05-d8f303a34ac3
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
@@ -40,7 +40,7 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 04 - cr7
-  server: 85.204.107.178
+  server: 85.204.107.174
   port: 8080
   udp: true
   type: hysteria2
