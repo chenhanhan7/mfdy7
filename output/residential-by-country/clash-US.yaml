@@ -4,32 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇿 捷克 (Czech) 01 - cr7
-  server: 78.159.247.246
-  port: 443
+- name: 🇺🇸 美国 (United States) 01 (家宽) - cr7
+  server: 172.64.154.8
+  port: 2086
   udp: true
   type: vless
-  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
-  tls: true
-  servername: sb2.hat.onl
-  skip-cert-verify: false
-  client-fingerprint: firefox
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   network: ws
   ws-opts:
-    path: /ws
+    path: /?ed=2560security=tls
     headers:
-      Host: sb2.hat.onl
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇿 捷克 (Czech) 01 - cr7
+  - 🇺🇸 美国 (United States) 01 (家宽) - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇿 捷克 (Czech) 01 - cr7
+  - 🇺🇸 美国 (United States) 01 (家宽) - cr7
 rules:
 - MATCH,PROXIES

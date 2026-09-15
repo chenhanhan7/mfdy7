@@ -14,38 +14,33 @@
     {
       "type": "shadowsocks",
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - cr7",
-      "server": "195.133.5.102",
-      "server_port": 7018,
-      "method": "aes-256-gcm",
-      "password": "895b4b796a357570"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - cr7",
       "server": "195.58.48.137",
       "server_port": 7018,
       "method": "aes-256-gcm",
       "password": "8ad9d72a5571df86"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - cr7",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "/QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - cr7",
-      "server": "194.87.196.13",
-      "server_port": 7018,
-      "method": "aes-256-gcm",
-      "password": "4938e975724d0ed1"
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - cr7",
+      "server": "46.8.200.91",
+      "server_port": 443,
+      "uuid": "b8201bab-fa6c-4f6e-b289-b5da660c6f69",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf3.rumedia-cdn.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn/v3/live",
+        "headers": {
+          "Host": "cf3.rumedia-cdn.com"
+        }
+      }
     },
     {
       "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - cr7",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - cr7",
       "server": "msk.frkn.org",
       "server_port": 443,
       "password": "f317b5d6-d399-4d3d-a051-89d674ae953c",
@@ -56,18 +51,6 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 07 - cr7",
-      "server": "srv-17e124.21freedom.net",
-      "server_port": 11592,
-      "password": "41edb44c8e",
-      "tls": {
-        "enabled": true,
-        "server_name": "off",
-        "insecure": true
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -75,10 +58,7 @@
         "🇷🇺 俄罗斯 (Russia) 01 - cr7",
         "🇷🇺 俄罗斯 (Russia) 02 - cr7",
         "🇷🇺 俄罗斯 (Russia) 03 - cr7",
-        "🇷🇺 俄罗斯 (Russia) 04 - cr7",
-        "🇷🇺 俄罗斯 (Russia) 05 - cr7",
-        "🇷🇺 俄罗斯 (Russia) 06 - cr7",
-        "🇷🇺 俄罗斯 (Russia) 07 - cr7"
+        "🇷🇺 俄罗斯 (Russia) 04 - cr7"
       ]
     },
     {
@@ -88,10 +68,7 @@
         "🇷🇺 俄罗斯 (Russia) 01 - cr7",
         "🇷🇺 俄罗斯 (Russia) 02 - cr7",
         "🇷🇺 俄罗斯 (Russia) 03 - cr7",
-        "🇷🇺 俄罗斯 (Russia) 04 - cr7",
-        "🇷🇺 俄罗斯 (Russia) 05 - cr7",
-        "🇷🇺 俄罗斯 (Russia) 06 - cr7",
-        "🇷🇺 俄罗斯 (Russia) 07 - cr7"
+        "🇷🇺 俄罗斯 (Russia) 04 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
