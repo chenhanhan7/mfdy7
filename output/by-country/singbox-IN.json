@@ -4,41 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇮🇳 印度 (India) 01 - cr7",
-      "server": "5.253.42.164",
-      "server_port": 40443,
-      "uuid": "e99ba96d-dec8-42eb-be53-19e71eef7cab",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "deepl.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw",
-          "short_id": "68a8"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇮🇳 印度 (India) 02 - cr7",
-      "server": "vpn-in-001.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn-in-001.fastervpn.world",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇮🇳 印度 (India) 03 - cr7",
       "server": "35.154.58.87",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
@@ -50,7 +17,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 04 - cr7",
+      "tag": "🇮🇳 印度 (India) 02 - cr7",
       "server": "194.61.31.126",
       "server_port": 2053,
       "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
@@ -69,24 +36,15 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 05 - cr7",
-      "server": "5.253.42.163",
-      "server_port": 40443,
-      "uuid": "15fd22d1-8931-4d41-af37-8ba6711e93fe",
-      "flow": "xtls-rprx-vision",
+      "type": "hysteria2",
+      "tag": "🇮🇳 印度 (India) 03 - cr7",
+      "server": "13.207.151.141",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo",
-          "short_id": "84fc"
-        }
+        "server_name": "vpn-in-001.fastervpn.world",
+        "insecure": true
       }
     },
     {
@@ -96,9 +54,7 @@
         "auto",
         "🇮🇳 印度 (India) 01 - cr7",
         "🇮🇳 印度 (India) 02 - cr7",
-        "🇮🇳 印度 (India) 03 - cr7",
-        "🇮🇳 印度 (India) 04 - cr7",
-        "🇮🇳 印度 (India) 05 - cr7"
+        "🇮🇳 印度 (India) 03 - cr7"
       ]
     },
     {
@@ -107,9 +63,7 @@
       "outbounds": [
         "🇮🇳 印度 (India) 01 - cr7",
         "🇮🇳 印度 (India) 02 - cr7",
-        "🇮🇳 印度 (India) 03 - cr7",
-        "🇮🇳 印度 (India) 04 - cr7",
-        "🇮🇳 印度 (India) 05 - cr7"
+        "🇮🇳 印度 (India) 03 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
