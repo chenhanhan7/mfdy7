@@ -6,7 +6,7 @@
     {
       "type": "vmess",
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - cr7",
-      "server": "82.198.246.37",
+      "server": "82.198.246.97",
       "server_port": 180,
       "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
       "security": "auto"
@@ -23,34 +23,12 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇦🇺 澳大利亚 (Australia) 03 - cr7",
-      "server": "ww11.levikogjgfdd.ir",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 04 - cr7",
-      "server": "vpn-au-002.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "whatsapp.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇦🇺 澳大利亚 (Australia) 01 - cr7",
-        "🇦🇺 澳大利亚 (Australia) 02 - cr7",
-        "🇦🇺 澳大利亚 (Australia) 03 - cr7",
-        "🇦🇺 澳大利亚 (Australia) 04 - cr7"
+        "🇦🇺 澳大利亚 (Australia) 02 - cr7"
       ]
     },
     {
@@ -58,9 +36,7 @@
       "tag": "auto",
       "outbounds": [
         "🇦🇺 澳大利亚 (Australia) 01 - cr7",
-        "🇦🇺 澳大利亚 (Australia) 02 - cr7",
-        "🇦🇺 澳大利亚 (Australia) 03 - cr7",
-        "🇦🇺 澳大利亚 (Australia) 04 - cr7"
+        "🇦🇺 澳大利亚 (Australia) 02 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
