@@ -6,11 +6,11 @@ log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - cr7
   server: 217.30.10.44
-  port: 9095
+  port: 9062
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: N7j3pdTYkKmsy8CR
+  password: tkhHVxxfM2QErBWe
 - name: 🇵🇱 波兰 (Poland) 02 - cr7
   server: 217.30.10.44
   port: 9076
@@ -28,31 +28,11 @@ proxies:
   reality-opts:
     public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
   servername: www.google.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
 - name: 🇵🇱 波兰 (Poland) 04 - cr7
-  server: admin.wwwinternetvideo.click
-  port: 443
-  udp: true
-  type: hysteria2
-  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-  sni: admin.wwwinternetvideo.click
-  skip-cert-verify: true
-- name: 🇵🇱 波兰 (Poland) 05 - cr7
-  server: 83.168.111.58
-  port: 443
-  udp: true
-  type: vless
-  uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 4h74KXbkBMYOhJkZabJNsf85cI91ytap_gkl56mzjTU
-  servername: soulful.host
-  client-fingerprint: chrome
-- name: 🇵🇱 波兰 (Poland) 06 - cr7
   server: 144.31.131.38
   port: 443
   udp: true
@@ -65,7 +45,14 @@ proxies:
     short-id: db04ce8bdb8900f1
   servername: prod.pl-node-01.security-sbrf.ru
   client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 07 - cr7
+- name: 🇵🇱 波兰 (Poland) 05 - cr7
+  server: 217.30.10.44
+  port: 9095
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: N7j3pdTYkKmsy8CR
+- name: 🇵🇱 波兰 (Poland) 06 - cr7
   server: atomic-prase23893.my-vm.work
   port: 8088
   udp: true
@@ -76,27 +63,32 @@ proxies:
     path: /api
     headers:
       Host: queuev4.vk.com
+- name: 🇵🇱 波兰 (Poland) 07 - cr7
+  server: 194.61.121.93
+  port: 7538
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: U9YAoqBgg5VyGBc6vQv1sN
 - name: 🇵🇱 波兰 (Poland) 08 - cr7
-  server: 144.31.2.33
+  server: admin.wwwinternetvideo.click
   port: 443
   udp: true
-  type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-  flow: xtls-rprx-vision
-  tls: true
-  servername: pl3.moritech.net
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  type: hysteria2
+  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
+  sni: admin.wwwinternetvideo.click
+  skip-cert-verify: true
 - name: 🇵🇱 波兰 (Poland) 09 - cr7
-  server: 144.31.5.64
+  server: 83.168.111.58
   port: 443
   udp: true
   type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d
   flow: xtls-rprx-vision
   tls: true
-  servername: pl6.moritech.net
-  skip-cert-verify: false
+  reality-opts:
+    public-key: 4h74KXbkBMYOhJkZabJNsf85cI91ytap_gkl56mzjTU
+  servername: soulful.host
   client-fingerprint: chrome
 - name: 🇵🇱 波兰 (Poland) 10 - cr7
   server: 82.118.22.161
