@@ -4,25 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇩🇰 丹麦 (Denmark) 01 - cr7
-  server: se.xiaoliyu.cyou
-  port: 4433
+- name: 🇳🇴 挪威 (Norway) 01 - cr7
+  server: 185.213.23.63
+  port: 990
   udp: true
-  type: hysteria2
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  sni: se.xiaoliyu.cyou
-  skip-cert-verify: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇩🇰 丹麦 (Denmark) 01 - cr7
+  - 🇳🇴 挪威 (Norway) 01 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇩🇰 丹麦 (Denmark) 01 - cr7
+  - 🇳🇴 挪威 (Norway) 01 - cr7
 rules:
 - MATCH,PROXIES
