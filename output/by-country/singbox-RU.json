@@ -6,25 +6,52 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - cr7",
-      "server": "95.85.89.70",
-      "server_port": 81,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "server": "104.21.79.199",
+      "server_port": 443,
+      "uuid": "38d6b629-64c2-4c31-a10d-26eb3a2a053d",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": true
+        "server_name": "lHNs3ww2-CXQ-Gj1vvOBkEPIg4noPkc.hqu4v38Hi9iFtcp6mZfMX-3bmx.WoRKeRS.dEV",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/trade?ed=2560fp=chrome",
+        "path": "/vl/cxl8Wn1ylnsk63nJ0",
         "headers": {
-          "Host": "cdn8848.776676.xyz"
+          "Host": "lhns3ww2-cxq-gj1vvobkepig4nopkc.hqu4v38hi9iftcp6mzfmx-3bmx.workers.dev"
         }
       }
     },
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - cr7",
+      "server": "130.49.189.158",
+      "server_port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "5dLyPJpSV+QyXFRj+S0dt6xFKHxtcXEkRO/TzJGzryU="
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - cr7",
+      "server": "91.240.86.70",
+      "server_port": 22443,
+      "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
+      "tls": {
+        "enabled": true,
+        "server_name": "itsallproxy.quattro-tech.ru",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - cr7",
       "server": "msk.frkn.org",
       "server_port": 443,
       "password": "f317b5d6-d399-4d3d-a051-89d674ae953c",
@@ -32,41 +59,6 @@
         "enabled": true,
         "server_name": "msk.frkn.org",
         "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - cr7",
-      "server": "46.8.200.91",
-      "server_port": 443,
-      "uuid": "0a2dde28-70da-4863-a06f-35d007d94d35",
-      "tls": {
-        "enabled": true,
-        "server_name": "cf3.rumedia-cdn.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/casc",
-        "headers": {
-          "Host": "cf3.rumedia-cdn.com"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - cr7",
-      "server": "91.240.86.70",
-      "server_port": 22443,
-      "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
-      "tls": {
-        "enabled": true,
-        "server_name": "hy.quattro-tech.ru",
-        "insecure": true
       }
     },
     {
