@@ -4,33 +4,21 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "trojan",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - cr7",
-      "server": "202.146.222.29",
+      "server": "119.246.1.143",
       "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "password": "BxceQaOe",
       "tls": {
         "enabled": true,
-        "server_name": "https://t.me/wangcai2üá®üá≥",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 - cr7",
-      "server": "202.146.222.174",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "202.146.222.174",
+        "server_name": "t.me%2fripaojiedian",
         "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - cr7",
-      "server": "vj37-1936vtw.fincore.top",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 - cr7",
+      "server": "162.128.157.164",
       "server_port": 443,
       "uuid": "5e8e81ac-a1c4-4543-b81e-651bf9872b54",
       "flow": "xtls-rprx-vision",
@@ -50,26 +38,38 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - cr7",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - cr7",
       "server": "202.146.222.89",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https://t.me/clashv8🇨🇳",
+        "server_name": "off",
         "insecure": true
       }
     },
     {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - cr7",
-      "server": "195.58.144.56",
-      "server_port": 11907,
-      "uuid": "07cb07b9-0c4d-46c1-a15a-b147511b6b07",
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - cr7",
+      "server": "202.146.222.29",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "195.58.144.56",
-        "insecure": false
+        "server_name": "https://t.me/wangcai2🇨🇳",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - cr7",
+      "server": "202.146.222.174",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "t.me",
+        "insecure": true
       }
     },
     {
@@ -81,37 +81,6 @@
       "tls": {
         "enabled": true,
         "server_name": "mz.hkychina.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - cr7",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "cdf5205e-897f-46a7-8d7f-21a61a80b466",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk1.69lover.my",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v2/e2fe4e52a165854d/stream",
-        "headers": {
-          "Host": "hk1.69lover.my"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - cr7",
-      "server": "119.246.1.143",
-      "server_port": 443,
-      "password": "BxceQaOe",
-      "tls": {
-        "enabled": true,
-        "server_name": "119.246.1.143",
         "insecure": true
       }
     },
@@ -125,9 +94,7 @@
         "🇭🇰 中国香港 (Hong Kong) 03 - cr7",
         "🇭🇰 中国香港 (Hong Kong) 04 - cr7",
         "🇭🇰 中国香港 (Hong Kong) 05 - cr7",
-        "🇭🇰 中国香港 (Hong Kong) 06 - cr7",
-        "🇭🇰 中国香港 (Hong Kong) 07 - cr7",
-        "🇭🇰 中国香港 (Hong Kong) 08 - cr7"
+        "🇭🇰 中国香港 (Hong Kong) 06 - cr7"
       ]
     },
     {
@@ -139,9 +106,7 @@
         "🇭🇰 中国香港 (Hong Kong) 03 - cr7",
         "🇭🇰 中国香港 (Hong Kong) 04 - cr7",
         "🇭🇰 中国香港 (Hong Kong) 05 - cr7",
-        "🇭🇰 中国香港 (Hong Kong) 06 - cr7",
-        "🇭🇰 中国香港 (Hong Kong) 07 - cr7",
-        "🇭🇰 中国香港 (Hong Kong) 08 - cr7"
+        "🇭🇰 中国香港 (Hong Kong) 06 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
