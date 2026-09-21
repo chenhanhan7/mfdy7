@@ -4,8 +4,20 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - cr7",
+      "server": "109.206.241.10",
+      "server_port": 449,
+      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
+      "tls": {
+        "enabled": true,
+        "server_name": "russiapower.accesscam.org",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 02 - cr7",
       "server": "94.183.170.147",
       "server_port": 8443,
       "uuid": "5edbcb44-8d04-4fa7-a587-bc5d60c24ca1",
@@ -14,7 +26,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -28,8 +40,30 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 03 - cr7",
+      "server": "94.183.170.135",
+      "server_port": 443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 04 - cr7",
+      "server": "94.183.170.135",
+      "server_port": 8443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "tls": {
+        "enabled": true,
+        "server_name": "estproxy4.lockdwn.com",
+        "insecure": false
+      }
+    },
+    {
       "type": "hysteria2",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 02 - cr7",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 05 - cr7",
       "server": "217.60.182.79",
       "server_port": 443,
       "password": "sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX",
@@ -41,17 +75,24 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 03 - cr7",
-      "server": "94.183.170.135",
-      "server_port": 8443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 06 - cr7",
+      "server": "109.107.155.76",
+      "server_port": 2053,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
+        "server_name": "cdn8848.776676.xyz",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tv/member/auth?ed=2560fp=chrome",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
         }
       }
     },
@@ -62,7 +103,10 @@
         "auto",
         "🇪🇪 爱沙尼亚 (Estonia) 01 - cr7",
         "🇪🇪 爱沙尼亚 (Estonia) 02 - cr7",
-        "🇪🇪 爱沙尼亚 (Estonia) 03 - cr7"
+        "🇪🇪 爱沙尼亚 (Estonia) 03 - cr7",
+        "🇪🇪 爱沙尼亚 (Estonia) 04 - cr7",
+        "🇪🇪 爱沙尼亚 (Estonia) 05 - cr7",
+        "🇪🇪 爱沙尼亚 (Estonia) 06 - cr7"
       ]
     },
     {
@@ -71,7 +115,10 @@
       "outbounds": [
         "🇪🇪 爱沙尼亚 (Estonia) 01 - cr7",
         "🇪🇪 爱沙尼亚 (Estonia) 02 - cr7",
-        "🇪🇪 爱沙尼亚 (Estonia) 03 - cr7"
+        "🇪🇪 爱沙尼亚 (Estonia) 03 - cr7",
+        "🇪🇪 爱沙尼亚 (Estonia) 04 - cr7",
+        "🇪🇪 爱沙尼亚 (Estonia) 05 - cr7",
+        "🇪🇪 爱沙尼亚 (Estonia) 06 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
