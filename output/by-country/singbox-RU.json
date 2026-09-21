@@ -4,32 +4,58 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "trojan",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - cr7",
+      "server": "104.21.87.130",
+      "server_port": 443,
+      "password": "Telegram_healer_config",
+      "tls": {
+        "enabled": true,
+        "server_name": "z6y-daOX0hyhDtdy.r720kPByx2l3i406.wOrKErS.DEv",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tr/UOAg5ubCk87OTaiIAxc0O?ed=2560",
+        "headers": {
+          "Host": "z6y-daox0hyhdtdy.r720kpbyx2l3i406.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - cr7",
       "server": "91.240.86.70",
       "server_port": 22443,
       "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
       "tls": {
         "enabled": true,
         "server_name": "hy.quattro-tech.ru",
-        "insecure": true
+        "insecure": false
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - cr7",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - cr7",
       "server": "msk.frkn.org",
       "server_port": 443,
       "password": "f317b5d6-d399-4d3d-a051-89d674ae953c",
       "tls": {
         "enabled": true,
         "server_name": "msk.frkn.org",
-        "insecure": true
+        "insecure": false
       }
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - cr7",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - cr7",
       "server": "46.8.200.91",
       "server_port": 443,
       "uuid": "b8201bab-fa6c-4f6e-b289-b5da660c6f69",
@@ -53,7 +79,8 @@
         "auto",
         "🇷🇺 俄罗斯 (Russia) 01 - cr7",
         "🇷🇺 俄罗斯 (Russia) 02 - cr7",
-        "🇷🇺 俄罗斯 (Russia) 03 - cr7"
+        "🇷🇺 俄罗斯 (Russia) 03 - cr7",
+        "🇷🇺 俄罗斯 (Russia) 04 - cr7"
       ]
     },
     {
@@ -62,7 +89,8 @@
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - cr7",
         "🇷🇺 俄罗斯 (Russia) 02 - cr7",
-        "🇷🇺 俄罗斯 (Russia) 03 - cr7"
+        "🇷🇺 俄罗斯 (Russia) 03 - cr7",
+        "🇷🇺 俄罗斯 (Russia) 04 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

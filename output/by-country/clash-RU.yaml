@@ -5,22 +5,33 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - cr7
+  server: 104.21.87.130
+  port: 443
+  udp: true
+  type: trojan
+  password: Telegram_healer_config
+  sni: z6y-daOX0hyhDtdy.r720kPByx2l3i406.wOrKErS.DEv
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /tr/UOAg5ubCk87OTaiIAxc0O?ed=2560
+- name: 🇷🇺 俄罗斯 (Russia) 02 - cr7
   server: 91.240.86.70
   port: 22443
   udp: true
   type: hysteria2
   password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
   sni: hy.quattro-tech.ru
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 02 - cr7
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 (Russia) 03 - cr7
   server: msk.frkn.org
   port: 443
   udp: true
   type: hysteria2
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   sni: msk.frkn.org
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 03 - cr7
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 (Russia) 04 - cr7
   server: 46.8.200.91
   port: 443
   udp: true
@@ -42,6 +53,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - cr7
   - 🇷🇺 俄罗斯 (Russia) 02 - cr7
   - 🇷🇺 俄罗斯 (Russia) 03 - cr7
+  - 🇷🇺 俄罗斯 (Russia) 04 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -50,5 +62,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - cr7
   - 🇷🇺 俄罗斯 (Russia) 02 - cr7
   - 🇷🇺 俄罗斯 (Russia) 03 - cr7
+  - 🇷🇺 俄罗斯 (Russia) 04 - cr7
 rules:
 - MATCH,PROXIES
