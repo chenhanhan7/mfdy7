@@ -15,7 +15,7 @@
         "server_name": "usa.oblaco.bet",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": ""
         },
         "reality": {
           "enabled": true,
@@ -37,36 +37,12 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 03 - cr7",
-      "server": "199.232.249.220",
-      "server_port": 443,
-      "uuid": "8abb648a-b004-42a4-aa05-49cdc2f94d4e",
-      "tls": {
-        "enabled": true,
-        "server_name": "global.fastly.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "sardach3.global.ssl.fastly.net"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇨🇭 瑞士 (Switzerland) 01 - cr7",
-        "🇨🇭 瑞士 (Switzerland) 02 - cr7",
-        "🇨🇭 瑞士 (Switzerland) 03 - cr7"
+        "🇨🇭 瑞士 (Switzerland) 02 - cr7"
       ]
     },
     {
@@ -74,8 +50,7 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇭 瑞士 (Switzerland) 01 - cr7",
-        "🇨🇭 瑞士 (Switzerland) 02 - cr7",
-        "🇨🇭 瑞士 (Switzerland) 03 - cr7"
+        "🇨🇭 瑞士 (Switzerland) 02 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
