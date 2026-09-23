@@ -4,25 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇳🇬 尼日利亚 (Nigeria) 01 - cr7
-  server: 103.97.91.17
+- name: 🇮🇶 IQ 01 - cr7
+  server: 188.114.96.3
   port: 443
   udp: true
   type: trojan
-  password: 600421cf-11d7-429f-a65b-c30397f1bc03
-  sni: la.freeguard.org
+  password: Telegram_healer_config
+  sni: cdtfrgmtcsbaarmz-9owpz7g4.f9w96pzky6un-covzx6b-hzlm80woj2.workers.dev
   skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /tr/3F3fUAGJks9doKvjt8AREH4QR?ed=2560
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇳🇬 尼日利亚 (Nigeria) 01 - cr7
+  - 🇮🇶 IQ 01 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇳🇬 尼日利亚 (Nigeria) 01 - cr7
+  - 🇮🇶 IQ 01 - cr7
 rules:
 - MATCH,PROXIES

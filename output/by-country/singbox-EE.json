@@ -36,11 +36,7 @@
       "tls": {
         "enabled": true,
         "server_name": "estproxy4.lockdwn.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "insecure": false
       }
     },
     {
@@ -52,29 +48,7 @@
       "tls": {
         "enabled": true,
         "server_name": "cabinet.wwwinternetvideo.click",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 04 - cr7",
-      "server": "94.183.170.135",
-      "server_port": 443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
-      "transport": {
-        "type": "ws"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 05 - cr7",
-      "server": "109.206.241.10",
-      "server_port": 449,
-      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
-      "tls": {
-        "enabled": true,
-        "server_name": "109.206.241.10",
-        "insecure": true
+        "insecure": false
       }
     },
     {
@@ -84,9 +58,7 @@
         "auto",
         "🇪🇪 爱沙尼亚 (Estonia) 01 - cr7",
         "🇪🇪 爱沙尼亚 (Estonia) 02 - cr7",
-        "🇪🇪 爱沙尼亚 (Estonia) 03 - cr7",
-        "🇪🇪 爱沙尼亚 (Estonia) 04 - cr7",
-        "🇪🇪 爱沙尼亚 (Estonia) 05 - cr7"
+        "🇪🇪 爱沙尼亚 (Estonia) 03 - cr7"
       ]
     },
     {
@@ -95,9 +67,7 @@
       "outbounds": [
         "🇪🇪 爱沙尼亚 (Estonia) 01 - cr7",
         "🇪🇪 爱沙尼亚 (Estonia) 02 - cr7",
-        "🇪🇪 爱沙尼亚 (Estonia) 03 - cr7",
-        "🇪🇪 爱沙尼亚 (Estonia) 04 - cr7",
-        "🇪🇪 爱沙尼亚 (Estonia) 05 - cr7"
+        "🇪🇪 爱沙尼亚 (Estonia) 03 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
