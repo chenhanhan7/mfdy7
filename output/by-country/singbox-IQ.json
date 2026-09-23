@@ -4,29 +4,23 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇮🇶 IQ 01 - cr7",
-      "server": "188.114.96.3",
-      "server_port": 443,
-      "password": "Telegram_healer_config",
+      "server": "193.8.215.96",
+      "server_port": 9443,
+      "uuid": "d9d0f208-d582-41d5-bb7b-742671402810",
       "tls": {
         "enabled": true,
-        "server_name": "cdtfrgmtcsbaarmz-9owpz7g4.f9w96pzky6un-covzx6b-hzlm80woj2.workers.dev",
+        "server_name": "hub-de-03.hanvpn.cc",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
-        "type": "ws",
-        "path": "/tr/3F3fUAGJks9doKvjt8AREH4QR?ed=2560",
-        "headers": {
-          "Host": "cdtfrgmtcsbaarmz-9owpz7g4.f9w96pzky6un-covzx6b-hzlm80woj2.workers.dev"
-        }
+        "type": "grpc",
+        "service_name": "de03-grpc-8e47a"
       }
     },
     {
