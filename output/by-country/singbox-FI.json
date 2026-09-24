@@ -6,7 +6,7 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 01 - cr7",
-      "server": "assets-fi.pleiades.codes",
+      "server": "2.27.175.71",
       "server_port": 443,
       "uuid": "0dca2cfe-98eb-4f9d-9a47-cf87510c558b",
       "tls": {
@@ -63,6 +63,18 @@
     {
       "type": "hysteria2",
       "tag": "🇫🇮 芬兰 (Finland) 04 - cr7",
+      "server": "de.i-love-russia.online",
+      "server_port": 443,
+      "password": "a6cf39b3-0424-42a2-abf7-b426da69b1a4",
+      "tls": {
+        "enabled": true,
+        "server_name": "de.i-love-russia.online",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇫🇮 芬兰 (Finland) 05 - cr7",
       "server": "iq5ny.pleiades.codes",
       "server_port": 8443,
       "password": "0dca2cfe-98eb-4f9d-9a47-cf87510c558b",
@@ -80,7 +92,8 @@
         "🇫🇮 芬兰 (Finland) 01 - cr7",
         "🇫🇮 芬兰 (Finland) 02 - cr7",
         "🇫🇮 芬兰 (Finland) 03 - cr7",
-        "🇫🇮 芬兰 (Finland) 04 - cr7"
+        "🇫🇮 芬兰 (Finland) 04 - cr7",
+        "🇫🇮 芬兰 (Finland) 05 - cr7"
       ]
     },
     {
@@ -90,7 +103,8 @@
         "🇫🇮 芬兰 (Finland) 01 - cr7",
         "🇫🇮 芬兰 (Finland) 02 - cr7",
         "🇫🇮 芬兰 (Finland) 03 - cr7",
-        "🇫🇮 芬兰 (Finland) 04 - cr7"
+        "🇫🇮 芬兰 (Finland) 04 - cr7",
+        "🇫🇮 芬兰 (Finland) 05 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
