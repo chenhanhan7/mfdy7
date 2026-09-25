@@ -5,19 +5,47 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - cr7
-  server: 193.151.108.35
-  port: 43000
+  server: 162.159.0.169
+  port: 8080
   udp: true
   type: vless
-  uuid: 47f79fc1-0646-40e8-8a58-73e85d183d5a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: iEIUvfQSP4eHihDkzb-qAQ-9zGaIINRJDvgwOrt6bkQ
-    short-id: 75df7f65ba2a8155
-  servername: 193.151.108.35
-  client-fingerprint: safari
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 02 - cr7
+  server: 172.64.229.2
+  port: 2052
+  udp: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 03 - cr7
+  server: 162.159.45.19
+  port: 2052
+  udp: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 04 - cr7
+  server: 91.240.86.70
+  port: 22443
+  udp: true
+  type: hysteria2
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  sni: itsallproxy.quattro-tech.ru
+  skip-cert-verify: true
+- name: 🇷🇺 俄罗斯 (Russia) 05 - cr7
   server: 138.124.121.233
   port: 443
   udp: true
@@ -30,20 +58,7 @@ proxies:
     short-id: a696de84963656de
   servername: amd.com
   client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 03 - cr7
-  server: 91.196.32.216
-  port: 9543
-  udp: true
-  type: vless
-  uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
-    short-id: 123abcdf
-  servername: storage.yandexcloud.net
-  client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 04 - cr7
+- name: 🇷🇺 俄罗斯 (Russia) 06 - cr7
   server: 46.8.200.91
   port: 443
   udp: true
@@ -66,6 +81,8 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - cr7
   - 🇷🇺 俄罗斯 (Russia) 03 - cr7
   - 🇷🇺 俄罗斯 (Russia) 04 - cr7
+  - 🇷🇺 俄罗斯 (Russia) 05 - cr7
+  - 🇷🇺 俄罗斯 (Russia) 06 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -75,5 +92,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - cr7
   - 🇷🇺 俄罗斯 (Russia) 03 - cr7
   - 🇷🇺 俄罗斯 (Russia) 04 - cr7
+  - 🇷🇺 俄罗斯 (Russia) 05 - cr7
+  - 🇷🇺 俄罗斯 (Russia) 06 - cr7
 rules:
 - MATCH,PROXIES
