@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - cr7
-  server: 104.24.143.217
+- name: 🌐 其他地区 (Other) 01 - cr7
+  server: 172.67.155.252
   port: 443
   udp: true
   type: vless
-  uuid: 50414e45-4c5f-5a45-5553-4eef5adc237a
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
   tls: true
-  servername: r5zenrelur2s.pqzdileiu8es.workers.dev
+  servername: 2-m13.0ee25773-D3D3-479D-a8fF-3F51D1D20031.kDNs.fR
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /stream/PANEL_ZEUS/4eef5adc237a/loc-1
+    path: /ED3ZQPu7lqyeDGD58KabZ
     headers:
-      Host: r5zenrelur2s.pqzdileiu8es.workers.dev
+      Host: 2-m13.0ee25773-D3d3-479D-a8ff-3F51d1D20031.kDnS.Fr
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - cr7
+  - 🌐 其他地区 (Other) 01 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - cr7
+  - 🌐 其他地区 (Other) 01 - cr7
 rules:
 - MATCH,PROXIES
