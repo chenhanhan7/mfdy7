@@ -6,84 +6,66 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - cr7",
-      "server": "104.18.46.234",
-      "server_port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - cr7",
-      "server": "185.229.9.160",
-      "server_port": 443,
-      "uuid": "9e4f675b-d6bf-42d1-be55-389f622783af",
+      "server": "94.249.186.68",
+      "server_port": 8443,
+      "uuid": "b21bfee6-dbd3-4e0b-840f-d66f07bf3186",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "smartcaptcha.yandexcloud.net",
+        "server_name": "deepl.com",
         "utls": {
           "enabled": true,
           "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
-          "public_key": "4Y0QLEasqtkWqfbrRedWqrZSPTnB14FDfI9q1v5SsHs",
-          "short_id": "0afbd1d3"
+          "public_key": "OAKZv1BA4SuH3tEQGf24i9ZJiKbYQoWoVZwrUdARQwU",
+          "short_id": "77c5f417fe413756"
         }
-      },
-      "transport": {
-        "type": "grpc"
       }
     },
     {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - cr7",
-      "server": "fbsv6.guardora.pro",
+      "type": "hysteria2",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - cr7",
+      "server": "91.196.32.163",
       "server_port": 443,
-      "uuid": "bc5ec86c-3e65-4272-994c-59a924c72a68",
+      "password": "mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj",
       "tls": {
         "enabled": true,
-        "server_name": "fbsv6.guardora.pro",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "fbsv6.guardora.pro"
-        }
+        "server_name": "germany3.h2corp.local",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - cr7",
+      "server": "91.240.86.70",
+      "server_port": 22443,
+      "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
+      "tls": {
+        "enabled": true,
+        "server_name": "91.240.86.70",
+        "insecure": true
       }
     },
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 04 - cr7",
-      "server": "176.123.162.100",
-      "server_port": 9880,
-      "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+      "server": "45.12.75.242",
+      "server_port": 26424,
+      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
       "tls": {
         "enabled": true,
-        "server_name": "dl.google.com",
+        "server_name": "ya.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU",
-          "short_id": ""
+          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
+          "short_id": "23103e1e"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc-tunnel"
       }
     },
     {
