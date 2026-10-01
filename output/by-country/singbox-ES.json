@@ -20,8 +20,28 @@
       "password": "qItG8SueYQcP"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇪🇸 西班牙 (Spain) 03 - cr7",
+      "server": "193.238.154.5",
+      "server_port": 443,
+      "uuid": "e0b9fb0f-1bbd-478b-9580-c2294778338b",
+      "tls": {
+        "enabled": true,
+        "server_name": "assets-es.pleiades.codes",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "cdn.v1.AssetService"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇪🇸 西班牙 (Spain) 04 - cr7",
       "server": "108.181.121.226",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
@@ -29,8 +49,8 @@
     },
     {
       "type": "vmess",
-      "tag": "🇪🇸 西班牙 (Spain) 04 - cr7",
-      "server": "66.163.118.73",
+      "tag": "🇪🇸 西班牙 (Spain) 05 - cr7",
+      "server": "mygptagent.org",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
@@ -41,10 +61,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "mygptagent.org"
-        }
+        "path": "/linkvws"
       }
     },
     {
@@ -55,7 +72,8 @@
         "🇪🇸 西班牙 (Spain) 01 - cr7",
         "🇪🇸 西班牙 (Spain) 02 - cr7",
         "🇪🇸 西班牙 (Spain) 03 - cr7",
-        "🇪🇸 西班牙 (Spain) 04 - cr7"
+        "🇪🇸 西班牙 (Spain) 04 - cr7",
+        "🇪🇸 西班牙 (Spain) 05 - cr7"
       ]
     },
     {
@@ -65,7 +83,8 @@
         "🇪🇸 西班牙 (Spain) 01 - cr7",
         "🇪🇸 西班牙 (Spain) 02 - cr7",
         "🇪🇸 西班牙 (Spain) 03 - cr7",
-        "🇪🇸 西班牙 (Spain) 04 - cr7"
+        "🇪🇸 西班牙 (Spain) 04 - cr7",
+        "🇪🇸 西班牙 (Spain) 05 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
