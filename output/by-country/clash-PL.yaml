@@ -5,43 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - cr7
-  server: 70.34.255.101
-  port: 80
-  udp: true
-  type: vless
-  uuid: a889262f-5fe3-4c93-9aaa-3721318dd389
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇵🇱 波兰 (Poland) 02 - cr7
-  server: 95.85.254.221
-  port: 443
-  udp: true
-  type: vless
-  uuid: 3464a5bd-6a17-4ac3-8ca9-86a54c1aac7b
-  tls: true
-  reality-opts:
-    public-key: tKAYeVSM4yLXiOdKLMFP751fhII6YyqfbMXy_MSuejI
-  servername: samsung.com
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless-grpc
-- name: 🇵🇱 波兰 (Poland) 03 - cr7
-  server: 138.124.104.2
-  port: 443
-  udp: true
-  type: vless
-  uuid: 3464a5bd-6a17-4ac3-8ca9-86a54c1aac7b
-  tls: true
-  reality-opts:
-    public-key: tKAYeVSM4yLXiOdKLMFP751fhII6YyqfbMXy_MSuejI
-  servername: samsung.com
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless-grpc
-- name: 🇵🇱 波兰 (Poland) 04 - cr7
   server: 70.34.252.154
   port: 80
   udp: true
@@ -50,28 +13,15 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇵🇱 波兰 (Poland) 05 - cr7
-  server: 83.168.95.145
-  port: 443
-  udp: true
-  type: vless
-  uuid: f28e0ce1-ed75-4e90-b069-5215a80dfb4a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: AcuvO982QLzf76fVydfSuJIiF5520rmj7AxpaxyRwUg
-    short-id: d345ad4657adeef9
-  servername: google.com
-  client-fingerprint: random
-- name: 🇵🇱 波兰 (Poland) 06 - cr7
-  server: admin.wwwinternetvideo.click
+- name: 🇵🇱 波兰 (Poland) 02 - cr7
+  server: 45.192.12.93
   port: 443
   udp: true
   type: hysteria2
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   sni: admin.wwwinternetvideo.click
   skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 07 - cr7
+- name: 🇵🇱 波兰 (Poland) 03 - cr7
   server: 202.78.163.237
   port: 443
   udp: true
@@ -79,40 +29,21 @@ proxies:
   password: UX82473651
   sni: cheerful-swan.rooster465.autos
   skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 08 - cr7
-  server: 50.7.249.138
+- name: 🇵🇱 波兰 (Poland) 04 - cr7
+  server: node64.tomalgopas.fun
   port: 443
   udp: true
   type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-  flow: xtls-rprx-vision
+  uuid: 3464a5bd-6a17-4ac3-8ca9-86a54c1aac7b
   tls: true
-  servername: polkadotnewone.failspace.top
-  skip-cert-verify: false
+  reality-opts:
+    public-key: tKAYeVSM4yLXiOdKLMFP751fhII6YyqfbMXy_MSuejI
+  servername: samsung.com
   client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 09 - cr7
-  server: 50.7.249.98
-  port: 443
-  udp: true
-  type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-  flow: xtls-rprx-vision
-  tls: true
-  servername: pol-pol-poland.failspace.top
-  skip-cert-verify: false
-  client-fingerprint: qq
-- name: 🇵🇱 波兰 (Poland) 10 - cr7
-  server: 50.7.249.155
-  port: 443
-  udp: true
-  type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-  flow: xtls-rprx-vision
-  tls: true
-  servername: poland-good.failspace.top
-  skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 11 - cr7
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc
+- name: 🇵🇱 波兰 (Poland) 05 - cr7
   server: 144.31.49.47
   port: 443
   udp: true
@@ -120,19 +51,7 @@ proxies:
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   sni: admin.wwwinternetvideo.click
   skip-cert-verify: true
-- name: 🇵🇱 波兰 (Poland) 12 - cr7
-  server: pl-waw.dontblockmepls.com
-  port: 2063
-  udp: true
-  type: vless
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-  servername: rusbid.de
-  client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 13 - cr7
+- name: 🇵🇱 波兰 (Poland) 06 - cr7
   server: 188.114.96.19
   port: 80
   udp: true
@@ -156,13 +75,6 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 04 - cr7
   - 🇵🇱 波兰 (Poland) 05 - cr7
   - 🇵🇱 波兰 (Poland) 06 - cr7
-  - 🇵🇱 波兰 (Poland) 07 - cr7
-  - 🇵🇱 波兰 (Poland) 08 - cr7
-  - 🇵🇱 波兰 (Poland) 09 - cr7
-  - 🇵🇱 波兰 (Poland) 10 - cr7
-  - 🇵🇱 波兰 (Poland) 11 - cr7
-  - 🇵🇱 波兰 (Poland) 12 - cr7
-  - 🇵🇱 波兰 (Poland) 13 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -174,12 +86,5 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 04 - cr7
   - 🇵🇱 波兰 (Poland) 05 - cr7
   - 🇵🇱 波兰 (Poland) 06 - cr7
-  - 🇵🇱 波兰 (Poland) 07 - cr7
-  - 🇵🇱 波兰 (Poland) 08 - cr7
-  - 🇵🇱 波兰 (Poland) 09 - cr7
-  - 🇵🇱 波兰 (Poland) 10 - cr7
-  - 🇵🇱 波兰 (Poland) 11 - cr7
-  - 🇵🇱 波兰 (Poland) 12 - cr7
-  - 🇵🇱 波兰 (Poland) 13 - cr7
 rules:
 - MATCH,PROXIES
