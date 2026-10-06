@@ -5,14 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - cr7
-  server: 181.215.18.196
+  server: telegram.khp25.com
   port: 1080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: pno0e2keji2gsfea
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - cr7
-  server: 181.215.18.110
+  server: telegramx.khp25.com
   port: 1080
   udp: true
   type: ss
@@ -27,14 +27,6 @@ proxies:
   sni: mz.hkychina.com
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - cr7
-  server: 202.146.222.174
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: t.me
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - cr7
   server: 202.146.222.89
   port: 443
   udp: true
@@ -42,7 +34,7 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 202.146.222.89
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - cr7
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - cr7
   server: xg1.mangshe.xyz
   port: 2060
   udp: true
@@ -50,24 +42,48 @@ proxies:
   password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
   sni: xg1.mangshe.xyz
   skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - cr7
+  server: 202.146.222.29
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/wangcai2�
+  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - cr7
+  server: 202.146.222.174
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https%3a%2f%2ft.me%2fwangcai2
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - cr7
+  server: c8dc0c18-tmrpc0-tt8rqc-jjv2.hk3.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+  sni: c8dc0c18-tmrpc0-tt8rqc-jjv2.hk3.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - cr7
   server: 185.244.208.69
   port: 443
   udp: true
   type: trojan
   password: UX82473651
   sni: strong-haddock.rooster465.autos
-  skip-cert-verify: false
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - cr7
-  server: 202.146.222.29
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - cr7
+  server: node1.luoye.ee
   port: 443
   udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2üáüá
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - cr7
-  server: 194.99.79.26
+  type: trojan
+  password: a72513ad-90f9-4ae0-8ef5-c25b7fb81d77
+  sni: node1.luoye.ee
+  skip-cert-verify: false
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - cr7
+  server: aksai.org
   port: 443
   udp: true
   type: vmess
@@ -82,7 +98,7 @@ proxies:
     path: /linkvws
     headers:
       Host: aksai.org
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - cr7
+- name: 🇭🇰 中国香港 (Hong Kong) 12 - cr7
   server: hk2.xiaoliyu.cyou
   port: 4433
   udp: true
@@ -105,6 +121,8 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 08 - cr7
   - 🇭🇰 中国香港 (Hong Kong) 09 - cr7
   - 🇭🇰 中国香港 (Hong Kong) 10 - cr7
+  - 🇭🇰 中国香港 (Hong Kong) 11 - cr7
+  - 🇭🇰 中国香港 (Hong Kong) 12 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -120,5 +138,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 08 - cr7
   - 🇭🇰 中国香港 (Hong Kong) 09 - cr7
   - 🇭🇰 中国香港 (Hong Kong) 10 - cr7
+  - 🇭🇰 中国香港 (Hong Kong) 11 - cr7
+  - 🇭🇰 中国香港 (Hong Kong) 12 - cr7
 rules:
 - MATCH,PROXIES
