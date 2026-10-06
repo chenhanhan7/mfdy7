@@ -4,33 +4,33 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🌐 其他地区 (Other) 01 - cr7
-  server: guanwang.awsno.com
+- name: 🇧🇷 巴西 (Brazil) 01 - cr7
+  server: 89.39.161.157
   port: 443
   udp: true
   type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
   tls: true
-  servername: guanwang.awsno.com
+  servername: aksai.org
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /hls/cctv5phd.m3u8
+    path: /linkvws
     headers:
-      Host: guanwang.awsno.com
+      Host: aksai.org
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🌐 其他地区 (Other) 01 - cr7
+  - 🇧🇷 巴西 (Brazil) 01 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🌐 其他地区 (Other) 01 - cr7
+  - 🇧🇷 巴西 (Brazil) 01 - cr7
 rules:
 - MATCH,PROXIES
