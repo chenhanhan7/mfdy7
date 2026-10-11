@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 罗马尼亚 (Romania) 01 - cr7
-  server: 77.74.123.99
+  server: 77.74.123.102
   port: 8443
   udp: true
   type: hysteria2
@@ -13,18 +13,27 @@ proxies:
   sni: grape-test-italy.dynuddns.net
   skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 02 - cr7
-  server: 146.70.124.85
+  server: 154.46.31.106
+  port: 443
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
+- name: 🇷🇴 罗马尼亚 (Romania) 03 - cr7
+  server: 86.107.179.237
   port: 443
   udp: true
   type: vless
-  uuid: 40abbe13-f02e-4da2-9b19-966c2c3eb4ee
-  flow: xtls-rprx-vision
+  uuid: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
   tls: true
   reality-opts:
-    public-key: byzvlw97wjAAAfHs5AZRV0P0H6_JKBEZ4yfLS0HNewE
-    short-id: fe24f8a0a560056e
-  servername: www.datadoghq.com
-  client-fingerprint: chrome
+    public-key: MKifKIzltM4QisjoMt2mtnvOHgFPryuJxUZUtqdMZ1E
+    short-id: ed
+  servername: league-feed.russsport.life
+  client-fingerprint: random
+  network: grpc
+  grpc-opts:
+    grpc-service-name: download
 proxy-groups:
 - name: PROXIES
   type: select
@@ -32,6 +41,7 @@ proxy-groups:
   - AUTO
   - 🇷🇴 罗马尼亚 (Romania) 01 - cr7
   - 🇷🇴 罗马尼亚 (Romania) 02 - cr7
+  - 🇷🇴 罗马尼亚 (Romania) 03 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -39,5 +49,6 @@ proxy-groups:
   proxies:
   - 🇷🇴 罗马尼亚 (Romania) 01 - cr7
   - 🇷🇴 罗马尼亚 (Romania) 02 - cr7
+  - 🇷🇴 罗马尼亚 (Romania) 03 - cr7
 rules:
 - MATCH,PROXIES

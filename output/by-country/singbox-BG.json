@@ -7,41 +7,23 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - cr7",
       "server": "213.183.63.60",
-      "server_port": 9098,
+      "server_port": 9066,
       "method": "aes-256-cfb",
-      "password": "aLpQtfEZe445QyHk"
-    },
-    {
-      "type": "trojan",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - cr7",
-      "server": "93.152.223.201",
-      "server_port": 443,
-      "password": "gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU",
-      "tls": {
-        "enabled": true,
-        "server_name": "ger2.fytpn.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
+      "password": "2KUaE2a8NWTvuCZ3"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 保加利亚 (Bulgaria) 01 - cr7",
-        "🇧🇬 保加利亚 (Bulgaria) 02 - cr7"
+        "🇧🇬 保加利亚 (Bulgaria) 01 - cr7"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 保加利亚 (Bulgaria) 01 - cr7",
-        "🇧🇬 保加利亚 (Bulgaria) 02 - cr7"
+        "🇧🇬 保加利亚 (Bulgaria) 01 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
