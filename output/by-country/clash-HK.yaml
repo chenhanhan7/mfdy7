@@ -5,14 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - cr7
-  server: 46.29.166.27
-  port: 20221
+  server: 34.92.19.135
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 6b39ae3234dfd68b
+  type: vless
+  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
+  tls: true
+  reality-opts:
+    public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
+    short-id: 56d4e7ae4f86fa39
+  servername: www.cloudflare.com
+  client-fingerprint: qq
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - cr7
-  server: 156.224.77.171
+  server: 45.207.157.24
   port: 9443
   udp: true
   type: vless
@@ -25,66 +30,6 @@ proxies:
   servername: www.amazon.com
   client-fingerprint: random
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - cr7
-  server: 202.146.222.89
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.89
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - cr7
-  server: 202.146.222.174
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.174
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - cr7
-  server: 202.146.222.29
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2fwangcai2%ef%a3%bf%c3%bc%c3%a1
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - cr7
-  server: mz.hkychina.com
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: HysTeria2026!Proxy
-  sni: mz.hkychina.com
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - cr7
-  server: 34.92.19.135
-  port: 443
-  udp: true
-  type: vless
-  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
-  tls: true
-  reality-opts:
-    public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
-    short-id: 56d4e7ae4f86fa39
-  servername: www.cloudflare.com
-  client-fingerprint: edge
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - cr7
-  server: 47.243.153.153
-  port: 443
-  udp: true
-  type: vmess
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: i2psm3knof5qjjix.v.3dns.vip
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - cr7
   server: 82.29.36.250
   port: 443
   udp: true
@@ -97,30 +42,65 @@ proxies:
     short-id: 09353d6dc5b789
   servername: aws.amazon.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - cr7
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - cr7
+  server: 202.146.222.89
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/clashv8
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - cr7
   server: full-ox.rooster465.autos
   port: 443
   udp: true
   type: trojan
   password: UX82473651
   sni: full-ox.rooster465.autos
-  skip-cert-verify: false
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - cr7
-  server: n2.whuiy.xyz
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - cr7
+  server: 202.146.222.174
   port: 443
   udp: true
-  type: vless
-  uuid: edee8379-1a08-45c8-8401-338452d8ca9b
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https%3a%2f%2ft.me%2fwangcai2
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - cr7
+  server: 202.146.222.29
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: whatsapp.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - cr7
+  server: yg1.ygkkk.dpdns.org
+  port: 443
+  udp: true
+  type: vmess
+  uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: n2.whuiy.xyz
+  servername: jmp1.907737.xyz
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /vless-cdn
+    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
     headers:
-      Host: n2.whuiy.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 12 - cr7
+      Host: jmp1.907737.xyz
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - cr7
+  server: nas.aizhzo.com
+  port: 5010
+  udp: true
+  type: hysteria2
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: nas.aizhzo.com
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - cr7
   server: 154.37.216.186
   port: 443
   udp: true
@@ -148,8 +128,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 08 - cr7
   - 🇭🇰 中国香港 (Hong Kong) 09 - cr7
   - 🇭🇰 中国香港 (Hong Kong) 10 - cr7
-  - 🇭🇰 中国香港 (Hong Kong) 11 - cr7
-  - 🇭🇰 中国香港 (Hong Kong) 12 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -165,7 +143,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 08 - cr7
   - 🇭🇰 中国香港 (Hong Kong) 09 - cr7
   - 🇭🇰 中国香港 (Hong Kong) 10 - cr7
-  - 🇭🇰 中国香港 (Hong Kong) 11 - cr7
-  - 🇭🇰 中国香港 (Hong Kong) 12 - cr7
 rules:
 - MATCH,PROXIES
