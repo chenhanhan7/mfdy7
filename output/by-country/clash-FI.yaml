@@ -5,49 +5,51 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - cr7
-  server: 185.103.110.68
-  port: 18283
-  udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: f9300a9bf39ae0347c3a3bfbc4dd7754
-- name: 🇫🇮 芬兰 (Finland) 02 - cr7
-  server: 85.209.129.5
-  port: 443
-  udp: true
-  type: trojan
-  password: muLkJXY1WyEbDdP-AoNpjg3HddPCAcBA
-  sni: fl.global-cdn.org
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ajv
-- name: 🇫🇮 芬兰 (Finland) 03 - cr7
   server: 185.103.110.66
   port: 18280
   udp: true
   type: ss
   cipher: aes-128-gcm
   password: f9300a9bf39ae0347c3a3bfbc4dd7754
-- name: 🇫🇮 芬兰 (Finland) 04 - cr7
-  server: 170.168.4.59
-  port: 17170
+- name: 🇫🇮 芬兰 (Finland) 02 - cr7
+  server: 185.103.110.68
+  port: 18283
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: f9300a9bf39ae0347c3a3bfbc4dd7754
+- name: 🇫🇮 芬兰 (Finland) 03 - cr7
+  server: fi.pythonsetupbib.online
+  port: 443
   udp: true
   type: vless
-  uuid: 3eec23c1-2a0d-4d53-afa5-62745a1f5ffe
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  flow: xtls-rprx-vision
   tls: true
-  servername: northerntrail.gazette.help
-  skip-cert-verify: false
+  reality-opts:
+    public-key: ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg
+    short-id: bdf5852d1423e694
+  servername: fi.pythonsetupbib.online
   client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: trail-grpc
-- name: 🇫🇮 芬兰 (Finland) 05 - cr7
+- name: 🇫🇮 芬兰 (Finland) 04 - cr7
   server: edge10.cyrionflare.com
   port: 2052
   udp: true
   type: vless
   uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+- name: 🇫🇮 芬兰 (Finland) 05 - cr7
+  server: tundra.venorix.online
+  port: 443
+  udp: true
+  type: vless
+  uuid: 6c21cf57-a9a9-4075-ad9f-631152bd911e
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: IHm9_n5a0hMAvgclNtwWpNpq68Xdj9-Q5NG3eLkcFjE
+    short-id: 52fe21c959620cd8
+  servername: tundra.venorix.online
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select

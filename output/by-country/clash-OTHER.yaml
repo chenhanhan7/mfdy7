@@ -4,25 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇿 捷克 (Czech) 01 - cr7
-  server: cz.h2.cleanersaz.help
+- name: 🌐 其他地区 (Other) 01 - cr7
+  server: 104.21.70.21
   port: 443
   udp: true
-  type: hysteria2
-  password: c-E0lamG8OnEj9M_uh3oJPmIXqYIVGctO-NHELF1TmNYs7Jl
-  sni: cz.h2.cleanersaz.help
+  type: trojan
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  sni: id1.nathaya.web.id
   skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /trojan
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇿 捷克 (Czech) 01 - cr7
+  - 🌐 其他地区 (Other) 01 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇿 捷克 (Czech) 01 - cr7
+  - 🌐 其他地区 (Other) 01 - cr7
 rules:
 - MATCH,PROXIES
