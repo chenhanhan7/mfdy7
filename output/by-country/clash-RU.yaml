@@ -34,7 +34,7 @@ proxies:
   grpc-opts:
     grpc-service-name: GunService
 - name: 🇷🇺 俄罗斯 (Russia) 03 - cr7
-  server: freede.aiage.work
+  server: 213.165.56.102
   port: 443
   udp: true
   type: vless
@@ -45,7 +45,7 @@ proxies:
     public-key: A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g
     short-id: 57e7977c9011061c
   servername: freede.aiage.work
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇷🇺 俄罗斯 (Russia) 04 - cr7
   server: 130.49.189.158
   port: 43558
@@ -54,27 +54,44 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 52+ggoCvKFVJyT1NDiuWOZw2rHIvAg3tgqgJl8aeCwY=
 - name: 🇷🇺 俄罗斯 (Russia) 05 - cr7
+  server: 153.80.241.206
+  port: 8444
+  udp: true
+  type: vless
+  uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309
+  tls: true
+  reality-opts:
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+  servername: github.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: GunService
+- name: 🇷🇺 俄罗斯 (Russia) 06 - cr7
+  server: 130.49.189.250
+  port: 28152
+  udp: true
+  type: hysteria2
+  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
+  sni: alb1337.zaebalsanoproxyklinus.lol
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 (Russia) 07 - cr7
   server: 194.87.118.184
   port: 2053
   udp: true
   type: hysteria2
   password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  sni: 194.87.118.184
+  sni: 'off'
   skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 06 - cr7
-  server: du-rov.secureservice.top
-  port: 8443
+- name: 🇷🇺 俄罗斯 (Russia) 08 - cr7
+  server: hy9.shamanfun.ru
+  port: 1443
   udp: true
-  type: vless
-  uuid: c53ea5e9-ed8b-4990-805d-7f1d6451426c
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
-    short-id: 3cbc3d737fb9c4af
-  servername: du-rov.secureservice.top
-  client-fingerprint: random
-- name: 🇷🇺 俄罗斯 (Russia) 07 - cr7
+  type: hysteria2
+  password: c635b5f6-b5ea-4e57-927f-75860b0cb984
+  sni: hy9.shamanfun.ru
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 (Russia) 09 - cr7
   server: 45.12.75.242
   port: 26424
   udp: true
@@ -98,6 +115,8 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 05 - cr7
   - 🇷🇺 俄罗斯 (Russia) 06 - cr7
   - 🇷🇺 俄罗斯 (Russia) 07 - cr7
+  - 🇷🇺 俄罗斯 (Russia) 08 - cr7
+  - 🇷🇺 俄罗斯 (Russia) 09 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -110,5 +129,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 05 - cr7
   - 🇷🇺 俄罗斯 (Russia) 06 - cr7
   - 🇷🇺 俄罗斯 (Russia) 07 - cr7
+  - 🇷🇺 俄罗斯 (Russia) 08 - cr7
+  - 🇷🇺 俄罗斯 (Russia) 09 - cr7
 rules:
 - MATCH,PROXIES

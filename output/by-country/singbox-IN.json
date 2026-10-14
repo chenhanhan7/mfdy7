@@ -4,16 +4,17 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇮🇳 印度 (India) 01 - cr7",
-      "server": "185.162.229.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "server": "152.67.8.205",
+      "server_port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "security": "auto",
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "vms.lifetime61.workers.dev"
+          "Host": "152.67.8.205"
         }
       }
     },
@@ -30,12 +31,33 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 03 - cr7",
+      "server": "194.61.31.126",
+      "server_port": 2053,
+      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
+          "short_id": "9980e0609b0d3891"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇮🇳 印度 (India) 01 - cr7",
-        "🇮🇳 印度 (India) 02 - cr7"
+        "🇮🇳 印度 (India) 02 - cr7",
+        "🇮🇳 印度 (India) 03 - cr7"
       ]
     },
     {
@@ -43,7 +65,8 @@
       "tag": "auto",
       "outbounds": [
         "🇮🇳 印度 (India) 01 - cr7",
-        "🇮🇳 印度 (India) 02 - cr7"
+        "🇮🇳 印度 (India) 02 - cr7",
+        "🇮🇳 印度 (India) 03 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
