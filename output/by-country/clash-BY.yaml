@@ -4,28 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇳 CN 01 - cr7
-  server: 39.108.113.127
-  port: 10086
+- name: 🇧🇾 白俄罗斯 (Belarus) 01 - cr7
+  server: 178.172.227.124
+  port: 14430
   udp: true
-  type: vmess
-  uuid: 2b910c43-51e3-4b15-9be8-b658106ba35e
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
   network: ws
   ws-opts:
-    path: /
+    path: /vless
+    headers:
+      Host: 178.172.227.124
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇳 CN 01 - cr7
+  - 🇧🇾 白俄罗斯 (Belarus) 01 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇳 CN 01 - cr7
+  - 🇧🇾 白俄罗斯 (Belarus) 01 - cr7
 rules:
 - MATCH,PROXIES
