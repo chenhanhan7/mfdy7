@@ -20,20 +20,20 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 02 - cr7",
-      "server": "mci1.amir12.ir",
-      "server_port": 1222,
-      "uuid": "36c3dcc2-17b6-4478-b8a7-3978e6d5afe9",
+      "server": "95.216.27.15",
+      "server_port": 2053,
+      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
       "tls": {
         "enabled": true,
-        "server_name": "play.google.com",
+        "server_name": "www.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "zpLKK8HuwXJDH9D0O3t5Z_tO3ajkj7VRtXdr6UGy1zE",
-          "short_id": "a25d0f"
+          "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
+          "short_id": "d368b94e275ab080"
         }
       }
     },
@@ -48,7 +48,7 @@
         "server_name": "github.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -64,20 +64,21 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 04 - cr7",
-      "server": "mci.amir12.ir",
-      "server_port": 2112,
-      "uuid": "36c3dcc2-17b6-4478-b8a7-3978e6d5afe9",
+      "server": "212.87.222.10",
+      "server_port": 8443,
+      "uuid": "8afeb33c-b686-43e9-a629-0d98f991ec28",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "play.google.com",
+        "server_name": "www.nokia.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "p8pUe3hwND5rhAti-yRQ5qMaIkNdhxOV1K1jpbtJlEQ",
-          "short_id": "125ba3"
+          "public_key": "f25sygANXTpzdc9YPCwkggwSmm3piA3BluSeHdfG-hg",
+          "short_id": ""
         }
       }
     },

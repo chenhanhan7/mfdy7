@@ -4,26 +4,25 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇪🇬 埃及 (Egypt) 01 - cr7",
-      "server": "38.54.59.102",
-      "server_port": 443,
-      "method": "aes-256-gcm",
-      "password": "pKEW8JPByTVTLtM"
+      "type": "vless",
+      "tag": "🇮🇪 爱尔兰 (Ireland) 01 - cr7",
+      "server": "13.135.17.74",
+      "server_port": 22222,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇬 埃及 (Egypt) 01 - cr7"
+        "🇮🇪 爱尔兰 (Ireland) 01 - cr7"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇬 埃及 (Egypt) 01 - cr7"
+        "🇮🇪 爱尔兰 (Ireland) 01 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
