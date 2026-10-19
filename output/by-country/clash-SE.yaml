@@ -16,19 +16,7 @@ proxies:
     headers:
       Host: 5.178.109.174
 - name: 🇸🇪 瑞典 (Sweden) 02 - cr7
-  server: 88.216.223.66
-  port: 443
-  udp: true
-  type: vless
-  uuid: 244d9eab-3311-40c7-b47f-4968dc3088a6
-  tls: true
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: 868419504747f6de
-  servername: tcpswed1.figurapn.ru
-  client-fingerprint: chrome
-- name: 🇸🇪 瑞典 (Sweden) 03 - cr7
-  server: 45.12.63.219
+  server: edge-lab-b.10media.top
   port: 443
   udp: true
   type: vless
@@ -36,25 +24,9 @@ proxies:
   tls: true
   servername: edge-lab-b.10media.top
   skip-cert-verify: false
-  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: swedenfeed
-- name: 🇸🇪 瑞典 (Sweden) 04 - cr7
-  server: 46.253.132.237
-  port: 23688
-  udp: true
-  type: vless
-  uuid: c19ecc7f-8312-4d9d-90c9-1a997d82d3c5
-  tls: true
-  reality-opts:
-    public-key: kbITklNKTdfvB6e3xy97pTV7gjl3Z3irv246oRZ5Gnk
-    short-id: f679b4f2
-  servername: apple.com
-  client-fingerprint: ios
-  network: grpc
-  grpc-opts:
-    grpc-service-name: awarecricketer
 proxy-groups:
 - name: PROXIES
   type: select
@@ -62,8 +34,6 @@ proxy-groups:
   - AUTO
   - 🇸🇪 瑞典 (Sweden) 01 - cr7
   - 🇸🇪 瑞典 (Sweden) 02 - cr7
-  - 🇸🇪 瑞典 (Sweden) 03 - cr7
-  - 🇸🇪 瑞典 (Sweden) 04 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -71,7 +41,5 @@ proxy-groups:
   proxies:
   - 🇸🇪 瑞典 (Sweden) 01 - cr7
   - 🇸🇪 瑞典 (Sweden) 02 - cr7
-  - 🇸🇪 瑞典 (Sweden) 03 - cr7
-  - 🇸🇪 瑞典 (Sweden) 04 - cr7
 rules:
 - MATCH,PROXIES
