@@ -5,21 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 01 - cr7",
-      "server": "45.198.54.249",
+      "tag": "🇹🇷 土耳其 (Turkey) 01 - cr7",
+      "server": "194.116.236.113",
       "server_port": 443,
-      "uuid": "8d4c35bd-d04a-43fe-8390-47133ab90dbf",
+      "uuid": "9c794bb7-54fe-4acd-844a-a26209af36c3",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "6a4a06t.es3.h1clayd.click",
+        "server_name": "api.mskvibe.fyi",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "rHCPMrwRVCwxdwv4YOCso7zlYTPoX8w7x1f5Yqv2bGM",
-          "short_id": "b73ab21227d33c1e"
+          "public_key": "13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ",
+          "short_id": "7271129440ade8fa"
         }
       }
     },
@@ -28,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇸 西班牙 (Spain) 01 - cr7"
+        "🇹🇷 土耳其 (Turkey) 01 - cr7"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇸 西班牙 (Spain) 01 - cr7"
+        "🇹🇷 土耳其 (Turkey) 01 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

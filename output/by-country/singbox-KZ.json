@@ -5,19 +5,17 @@
   "outbounds": [
     {
       "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - cr7",
-      "server": "9641684.sdf65h4.top",
-      "server_port": 443,
-      "uuid": "250c015d-bab0-4ed3-b638-b4eda48f5840",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - cr7",
+      "server": "38.107.234.57",
+      "server_port": 80,
+      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
       "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "9641684.sdf65h4.top",
-        "insecure": false
-      },
       "transport": {
         "type": "ws",
-        "path": "/"
+        "path": "/vmess/",
+        "headers": {
+          "Host": "38.107.234.57"
+        }
       }
     },
     {
@@ -25,14 +23,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - cr7"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - cr7"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - cr7"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
