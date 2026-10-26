@@ -5,6 +5,30 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - cr7
+  server: 185.253.116.33
+  port: 14430
+  udp: true
+  type: vless
+  uuid: aee7ae19-672f-49d8-8a92-aa7cdfc89f89
+  network: ws
+  ws-opts:
+    path: /vless
+- name: 🇦🇪 阿联酋 (UAE) 02 - cr7
+  server: 178.83.110.32
+  port: 7443
+  udp: true
+  type: vless
+  uuid: 9bb71136-2380-4b6a-97be-1d4ba11d5a55
+  tls: true
+  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 03 - cr7
   server: 130.49.161.70
   port: 443
   udp: true
@@ -14,16 +38,7 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 02 - cr7
-  server: 185.253.116.33
-  port: 14430
-  udp: true
-  type: vless
-  uuid: aee7ae19-672f-49d8-8a92-aa7cdfc89f89
-  network: ws
-  ws-opts:
-    path: /vless
-- name: 🇦🇪 阿联酋 (UAE) 03 - cr7
+- name: 🇦🇪 阿联酋 (UAE) 04 - cr7
   server: 84.235.244.108
   port: 22573
   udp: true
@@ -34,7 +49,22 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 04 - cr7
+- name: 🇦🇪 阿联酋 (UAE) 05 - cr7
+  server: 203.137.165.164
+  port: 57554
+  udp: true
+  type: vless
+  uuid: e5b2a063-a114-4bd0-802d-b2da1fe1d1da
+  tls: true
+  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 06 - cr7
   server: 95.174.68.188
   port: 14430
   udp: true
@@ -43,21 +73,6 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
-- name: 🇦🇪 阿联酋 (UAE) 05 - cr7
-  server: 84.22.150.39
-  port: 7443
-  udp: true
-  type: vless
-  uuid: 9d5cbb90-876b-448d-9874-27ab35bae6e7
-  tls: true
-  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -68,6 +83,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - cr7
   - 🇦🇪 阿联酋 (UAE) 04 - cr7
   - 🇦🇪 阿联酋 (UAE) 05 - cr7
+  - 🇦🇪 阿联酋 (UAE) 06 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -78,5 +94,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - cr7
   - 🇦🇪 阿联酋 (UAE) 04 - cr7
   - 🇦🇪 阿联酋 (UAE) 05 - cr7
+  - 🇦🇪 阿联酋 (UAE) 06 - cr7
 rules:
 - MATCH,PROXIES

@@ -5,24 +5,29 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) R50 - cr7",
-      "server": "23.160.56.99",
-      "server_port": 2087,
-      "uuid": "f1e7eafa-0d6f-441e-8565-29f34171aef2"
+      "tag": "🇵🇭 菲律宾 (Philippines) 01 - cr7",
+      "server": "ph001.zestapp778.com",
+      "server_port": 15656,
+      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
+      "tls": {
+        "enabled": true,
+        "server_name": "ph001.zestapp778.com",
+        "insecure": false
+      }
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) R50 - cr7"
+        "🇵🇭 菲律宾 (Philippines) 01 - cr7"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) R50 - cr7"
+        "🇵🇭 菲律宾 (Philippines) 01 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

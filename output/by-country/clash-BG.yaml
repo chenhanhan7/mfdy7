@@ -4,23 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (家宽) R50 - cr7
-  server: 23.160.56.99
-  port: 2087
+- name: 🇧🇬 保加利亚 (Bulgaria) 01 - cr7
+  server: 45.144.48.32
+  port: 56080
   udp: true
-  type: vless
-  uuid: f1e7eafa-0d6f-441e-8565-29f34171aef2
+  type: vmess
+  uuid: f4daaec7-0e1e-4c8e-97e8-cff5347c2dae
+  alterId: 0
+  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (家宽) R50 - cr7
+  - 🇧🇬 保加利亚 (Bulgaria) 01 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (家宽) R50 - cr7
+  - 🇧🇬 保加利亚 (Bulgaria) 01 - cr7
 rules:
 - MATCH,PROXIES
