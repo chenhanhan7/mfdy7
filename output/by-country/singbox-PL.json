@@ -6,9 +6,22 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 01 - cr7",
-      "server": "5.22.221.127",
-      "server_port": 443,
-      "uuid": "44dfa3a7-f648-4587-819b-e653c0823f28"
+      "server": "77.232.135.141",
+      "server_port": 8445,
+      "uuid": "36cf792c-f07d-4500-97ea-a395e5178deb",
+      "tls": {
+        "enabled": true,
+        "server_name": "ru1.radiolumens.uk",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "beru-pl"
+      }
     },
     {
       "type": "vless",
@@ -18,67 +31,8 @@
       "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf"
     },
     {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 03 - cr7",
-      "server": "77.232.135.141",
-      "server_port": 8445,
-      "uuid": "36cf792c-f07d-4500-97ea-a395e5178deb",
-      "tls": {
-        "enabled": true,
-        "server_name": "ru1.radiolumens.uk",
-        "insecure": false
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "beru-pl"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 04 - cr7",
-      "server": "2.26.6.1",
-      "server_port": 2087,
-      "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
-      "tls": {
-        "enabled": true,
-        "server_name": "2.26.6.1",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 05 - cr7",
-      "server": "tr2.soft10.ir",
-      "server_port": 2053,
-      "uuid": "480b4042-f713-43d7-b24b-b4064c97f841",
-      "tls": {
-        "enabled": true,
-        "server_name": "tr2.soft10.ir",
-        "insecure": false,
-        "alpn": [
-          "http/1.1",
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tr2.soft10.ir"
-        }
-      }
-    },
-    {
       "type": "vmess",
-      "tag": "🇵🇱 波兰 (Poland) 06 - cr7",
+      "tag": "🇵🇱 波兰 (Poland) 03 - cr7",
       "server": "54.37.131.126",
       "server_port": 80,
       "uuid": "6deef9ad-1357-443d-f95c-cb18952c20b3",
@@ -92,6 +46,34 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 04 - cr7",
+      "server": "2.26.6.1",
+      "server_port": 2087,
+      "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.26.6.1",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇵🇱 波兰 (Poland) 05 - cr7",
+      "server": "92.118.150.146",
+      "server_port": 443,
+      "password": "Trojan@82164024",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl.tronsg.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -100,8 +82,7 @@
         "🇵🇱 波兰 (Poland) 02 - cr7",
         "🇵🇱 波兰 (Poland) 03 - cr7",
         "🇵🇱 波兰 (Poland) 04 - cr7",
-        "🇵🇱 波兰 (Poland) 05 - cr7",
-        "🇵🇱 波兰 (Poland) 06 - cr7"
+        "🇵🇱 波兰 (Poland) 05 - cr7"
       ]
     },
     {
@@ -112,8 +93,7 @@
         "🇵🇱 波兰 (Poland) 02 - cr7",
         "🇵🇱 波兰 (Poland) 03 - cr7",
         "🇵🇱 波兰 (Poland) 04 - cr7",
-        "🇵🇱 波兰 (Poland) 05 - cr7",
-        "🇵🇱 波兰 (Poland) 06 - cr7"
+        "🇵🇱 波兰 (Poland) 05 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

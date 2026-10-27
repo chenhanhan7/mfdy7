@@ -13,22 +13,9 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
-- name: 🇦🇪 阿联酋 (UAE) 02 - cr7
-  server: 178.83.110.32
-  port: 7443
-  udp: true
-  type: vless
-  uuid: 9bb71136-2380-4b6a-97be-1d4ba11d5a55
-  tls: true
-  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
     headers:
-      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 03 - cr7
+      Host: 185.253.116.33
+- name: 🇦🇪 阿联酋 (UAE) 02 - cr7
   server: 130.49.161.70
   port: 443
   udp: true
@@ -38,7 +25,7 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 04 - cr7
+- name: 🇦🇪 阿联酋 (UAE) 03 - cr7
   server: 84.235.244.108
   port: 22573
   udp: true
@@ -49,30 +36,14 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 05 - cr7
-  server: 203.137.165.164
-  port: 57554
+- name: 🇦🇪 阿联酋 (UAE) 04 - cr7
+  server: forshynewh.duckdns.org
+  port: 443
   udp: true
-  type: vless
-  uuid: e5b2a063-a114-4bd0-802d-b2da1fe1d1da
-  tls: true
-  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 06 - cr7
-  server: 95.174.68.188
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
-  network: ws
-  ws-opts:
-    path: /vless
+  type: hysteria2
+  password: 329e13e4-ee7c-4802-ac72-5fcab79c2402
+  sni: forshynewh.duckdns.org
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -82,8 +53,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - cr7
   - 🇦🇪 阿联酋 (UAE) 03 - cr7
   - 🇦🇪 阿联酋 (UAE) 04 - cr7
-  - 🇦🇪 阿联酋 (UAE) 05 - cr7
-  - 🇦🇪 阿联酋 (UAE) 06 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -93,7 +62,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - cr7
   - 🇦🇪 阿联酋 (UAE) 03 - cr7
   - 🇦🇪 阿联酋 (UAE) 04 - cr7
-  - 🇦🇪 阿联酋 (UAE) 05 - cr7
-  - 🇦🇪 阿联酋 (UAE) 06 - cr7
 rules:
 - MATCH,PROXIES
