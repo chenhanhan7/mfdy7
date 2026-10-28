@@ -5,23 +5,26 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇲🇰 MK 01 - cr7",
-      "server": "89.185.82.151",
-      "server_port": 10443,
-      "uuid": "0869a7d7-b8e8-42be-8bca-84b0ab07744a",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - cr7",
+      "server": "217.60.182.138",
+      "server_port": 8843,
+      "uuid": "f7274516-0050-4544-9462-0f1ca689db54",
       "tls": {
         "enabled": true,
-        "server_name": "stackoverflow.com",
+        "server_name": "myschoolonline.cvedcmimikal.space",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "XNfikFybWtjJjWU7-QBGrr-D9YUW0uSK_sR7mDDUmRU",
-          "short_id": "6ba85179"
+          "public_key": "XD-GOGR9K3rGRCfpytDaJZmtXOr7ZO6OdczpjUE0Dh8",
+          "short_id": "a4f8c92d"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "46205b"
       }
     },
     {
@@ -29,14 +32,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇰 MK 01 - cr7"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - cr7"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇰 MK 01 - cr7"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
