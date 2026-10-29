@@ -5,34 +5,57 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - cr7
-  server: ams1.rvpn.app
+  server: 162.159.228.255
+  port: 443
+  udp: true
+  type: vless
+  uuid: b135a1e0-ebdb-4d46-b3fa-bd1e78580244
+  tls: true
+  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 02 - cr7
+  server: 178.253.16.185
   port: 8388
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: x2A6AsyZ-rAllz0wbKHzWA
-- name: 🇦🇪 阿联酋 (UAE) 02 - cr7
-  server: forshynewh.duckdns.org
+- name: 🇦🇪 阿联酋 (UAE) 03 - cr7
+  server: 130.49.161.70
+  port: 443
+  udp: true
+  type: hysteria2
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+- name: 🇦🇪 阿联酋 (UAE) 04 - cr7
+  server: 217.60.72.225
   port: 443
   udp: true
   type: hysteria2
   password: 329e13e4-ee7c-4802-ac72-5fcab79c2402
   sni: forshynewh.duckdns.org
   skip-cert-verify: false
-- name: 🇦🇪 阿联酋 (UAE) 03 - cr7
-  server: 91.132.48.136
-  port: 443
+- name: 🇦🇪 阿联酋 (UAE) 05 - cr7
+  server: 84.235.244.108
+  port: 22573
   udp: true
   type: vless
-  uuid: 0d607d84-0ae0-4b9c-a4f3-1766ab456e02
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: _0hmzeEAGEx6boacV3d-FrFGaFBYfdvJno39FxveJwM
-    short-id: e7c5f2a9
-  servername: bunny.net
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 04 - cr7
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 06 - cr7
   server: 95.174.68.188
   port: 14430
   udp: true
@@ -41,30 +64,8 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
-- name: 🇦🇪 阿联酋 (UAE) 05 - cr7
-  server: 175.41.179.37
-  port: 51262
-  udp: true
-  type: vless
-  uuid: 903fed13-8e78-4fa2-a83e-b392b289741f
-  tls: true
-  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
     headers:
-      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 06 - cr7
-  server: uae.unixzone.us
-  port: 22573
-  udp: true
-  type: vless
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  network: ws
-  ws-opts:
-    path: /
+      Host: 95.174.68.188
 proxy-groups:
 - name: PROXIES
   type: select

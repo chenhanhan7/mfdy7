@@ -12,41 +12,8 @@
       "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 02 - cr7",
-      "server": "140.238.213.114",
-      "server_port": 50160,
-      "password": "84a506ca5aca505696a454d828420b3f",
-      "tls": {
-        "enabled": true,
-        "server_name": "140.238.213.114",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 03 - cr7",
-      "server": "45.90.59.15",
-      "server_port": 443,
-      "uuid": "3950b45e-740d-4dca-ac95-505ec8534592",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY",
-          "short_id": "19253fae84102271"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 04 - cr7",
       "server": "45.90.57.119",
       "server_port": 8443,
       "uuid": "f5e70ce3-cfb4-4df1-b25c-d19bfae627c0",
@@ -56,7 +23,7 @@
         "server_name": "twitch.tv",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -67,13 +34,13 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 05 - cr7",
-      "server": "80.240.18.227",
-      "server_port": 10051,
-      "uuid": "d161dcf1-fde2-44cc-b08d-d8944895e842",
+      "tag": "🇨🇭 瑞士 (Switzerland) 03 - cr7",
+      "server": "57.129.130.10",
+      "server_port": 52014,
+      "uuid": "bca740c6-6704-48ba-99da-7d7a31768d73",
       "tls": {
         "enabled": true,
-        "server_name": "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev",
+        "server_name": "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -84,33 +51,13 @@
         "type": "ws",
         "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
+          "Host": "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 06 - cr7",
-      "server": "149.33.15.213",
-      "server_port": 443,
-      "uuid": "054362fb-e485-4a3f-9568-4c5b0f60e074",
-      "tls": {
-        "enabled": true,
-        "server_name": "swz.proxyplankton.ru",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 07 - cr7",
+      "tag": "🇨🇭 瑞士 (Switzerland) 04 - cr7",
       "server": "208.69.78.217",
       "server_port": 2053,
       "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
@@ -136,10 +83,7 @@
         "🇨🇭 瑞士 (Switzerland) 01 - cr7",
         "🇨🇭 瑞士 (Switzerland) 02 - cr7",
         "🇨🇭 瑞士 (Switzerland) 03 - cr7",
-        "🇨🇭 瑞士 (Switzerland) 04 - cr7",
-        "🇨🇭 瑞士 (Switzerland) 05 - cr7",
-        "🇨🇭 瑞士 (Switzerland) 06 - cr7",
-        "🇨🇭 瑞士 (Switzerland) 07 - cr7"
+        "🇨🇭 瑞士 (Switzerland) 04 - cr7"
       ]
     },
     {
@@ -149,10 +93,7 @@
         "🇨🇭 瑞士 (Switzerland) 01 - cr7",
         "🇨🇭 瑞士 (Switzerland) 02 - cr7",
         "🇨🇭 瑞士 (Switzerland) 03 - cr7",
-        "🇨🇭 瑞士 (Switzerland) 04 - cr7",
-        "🇨🇭 瑞士 (Switzerland) 05 - cr7",
-        "🇨🇭 瑞士 (Switzerland) 06 - cr7",
-        "🇨🇭 瑞士 (Switzerland) 07 - cr7"
+        "🇨🇭 瑞士 (Switzerland) 04 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
