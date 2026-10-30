@@ -5,83 +5,33 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - cr7
-  server: 104.21.77.142
-  port: 2096
+  server: 130.49.177.193
+  port: 443
   udp: true
   type: vless
-  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
-  tls: true
-  servername: courses.mftplus.qzz.io
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: courses.mftplus.qzz.io
-- name: 🇷🇺 俄罗斯 (Russia) 02 - cr7
-  server: 195.58.49.167
-  port: 18443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
-- name: 🇷🇺 俄罗斯 (Russia) 03 - cr7
-  server: 193.160.141.138
-  port: 8443
-  udp: true
-  type: vless
-  uuid: b4a1200a-9765-4649-94f2-c26e0a37dffb
+  uuid: 727a9178-d7f0-4142-8205-b0d19959ded0
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: apple.com
-  client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 04 - cr7
-  server: 193.160.141.81
-  port: 8443
-  udp: true
-  type: vless
-  uuid: ee82f319-ab92-425d-8e04-28a29f33f670
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: apple.com
-  client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 05 - cr7
-  server: 147.45.46.157
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 75985152-e16e-4a48-87ff-35c2615e0ab5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: apple.com
+    public-key: DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc
+    short-id: 681fc2dd643bc2f3
+  servername: de-2.ffpn.pro
   client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 06 - cr7
-  server: 193.160.140.159
-  port: 8443
+- name: 🇷🇺 俄罗斯 (Russia) 02 - cr7
+  server: 193.233.253.180
+  port: 8444
   udp: true
   type: vless
-  uuid: d4353076-3ec7-47dc-88b0-f21eb59fbfb8
-  flow: xtls-rprx-vision
+  uuid: a346c521-7a7f-452b-9356-a4893feb5982
   tls: true
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: apple.com
-  client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 07 - cr7
-  server: 130.49.189.158
-  port: 43558
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: cZGr8nLHdf+FE5ZAw0Y/Rzsml4AyikGL481Pg7eBpsI=
-- name: 🇷🇺 俄罗斯 (Russia) 08 - cr7
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+  servername: github.com
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: GunService
+- name: 🇷🇺 俄罗斯 (Russia) 03 - cr7
   server: 185.147.27.164
   port: 8443
   udp: true
@@ -91,31 +41,52 @@ proxies:
   tls: true
   servername: user-6a8d949a.noooo.win
   skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 (Russia) 09 - cr7
-  server: 185.147.27.183
-  port: 8443
+- name: 🇷🇺 俄罗斯 (Russia) 04 - cr7
+  server: srv-17e124.21freedom.net
+  port: 11592
   udp: true
-  type: vless
-  uuid: 379998c5-2a71-4202-9c74-522e0c3c5404
-  flow: xtls-rprx-vision
-  tls: true
-  servername: user-6a917f32.noooo.win
-  skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 10 - cr7
-  server: 201.24.121.243
+  type: hysteria2
+  password: 41edb44c8e
+  sni: srv-17e124.21freedom.net
+  skip-cert-verify: true
+- name: 🇷🇺 俄罗斯 (Russia) 05 - cr7
+  server: 72.56.38.83
   port: 443
   udp: true
   type: vless
-  uuid: 32b5ca9b-3f81-4031-965d-e8b074216e8d
+  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  flow: xtls-rprx-vision
   tls: true
-  servername: kk-ru24a1.testkknegr.online
-  skip-cert-verify: false
+  reality-opts:
+    public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
+  servername: absolute-disaster.org
   client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 06 - cr7
+  server: 72.56.38.83
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
+  servername: absolute-disaster.org
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 07 - cr7
+  server: 147.45.175.81
+  port: 443
+  udp: true
+  type: vless
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  tls: true
+  servername: xssite.webredirect.org
+  skip-cert-verify: false
+  client-fingerprint: random
   network: grpc
   grpc-opts:
-    grpc-service-name: vlgrpc
-- name: 🇷🇺 俄罗斯 (Russia) 11 - cr7
+    grpc-service-name: grpc-ru
+- name: 🇷🇺 俄罗斯 (Russia) 08 - cr7
   server: 45.12.75.242
   port: 26424
   udp: true
@@ -127,33 +98,6 @@ proxies:
     short-id: 23103e1e
   servername: ya.ru
   client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 12 - cr7
-  server: 193.233.253.180
-  port: 8444
-  udp: true
-  type: vless
-  uuid: a346c521-7a7f-452b-9356-a4893feb5982
-  tls: true
-  reality-opts:
-    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
-  servername: github.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: GunService
-- name: 🇷🇺 俄罗斯 (Russia) 13 - cr7
-  server: xsru1.ddnsfree.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-  tls: true
-  servername: xsru1.ddnsfree.com
-  skip-cert-verify: false
-  client-fingerprint: random
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-ru
 proxy-groups:
 - name: PROXIES
   type: select
@@ -167,11 +111,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 06 - cr7
   - 🇷🇺 俄罗斯 (Russia) 07 - cr7
   - 🇷🇺 俄罗斯 (Russia) 08 - cr7
-  - 🇷🇺 俄罗斯 (Russia) 09 - cr7
-  - 🇷🇺 俄罗斯 (Russia) 10 - cr7
-  - 🇷🇺 俄罗斯 (Russia) 11 - cr7
-  - 🇷🇺 俄罗斯 (Russia) 12 - cr7
-  - 🇷🇺 俄罗斯 (Russia) 13 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -185,10 +124,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 06 - cr7
   - 🇷🇺 俄罗斯 (Russia) 07 - cr7
   - 🇷🇺 俄罗斯 (Russia) 08 - cr7
-  - 🇷🇺 俄罗斯 (Russia) 09 - cr7
-  - 🇷🇺 俄罗斯 (Russia) 10 - cr7
-  - 🇷🇺 俄罗斯 (Russia) 11 - cr7
-  - 🇷🇺 俄罗斯 (Russia) 12 - cr7
-  - 🇷🇺 俄罗斯 (Russia) 13 - cr7
 rules:
 - MATCH,PROXIES
