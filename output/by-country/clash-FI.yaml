@@ -45,15 +45,6 @@ proxies:
     path: /
     headers:
       Host: hw3.divarkhaghazi.com.
-- name: 🇫🇮 芬兰 (Finland) 04 - cr7
-  server: cd0.bmi.ir.kolman.com.de
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 2da85937-93d9-4509-8491-63b1921cf447
-  alterId: 0
-  cipher: auto
-  network: httpupgrade
 proxy-groups:
 - name: PROXIES
   type: select
@@ -62,7 +53,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 01 - cr7
   - 🇫🇮 芬兰 (Finland) 02 - cr7
   - 🇫🇮 芬兰 (Finland) 03 - cr7
-  - 🇫🇮 芬兰 (Finland) 04 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -71,6 +61,5 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 01 - cr7
   - 🇫🇮 芬兰 (Finland) 02 - cr7
   - 🇫🇮 芬兰 (Finland) 03 - cr7
-  - 🇫🇮 芬兰 (Finland) 04 - cr7
 rules:
 - MATCH,PROXIES
