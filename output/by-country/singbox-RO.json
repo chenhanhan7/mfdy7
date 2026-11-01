@@ -11,16 +11,8 @@
       "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - cr7",
-      "server": "bogging-eyeteeth-fly.freesocks.work",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QFWzCw2uX9B9i6qAYeFBIE"
-    },
-    {
       "type": "vless",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - cr7",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - cr7",
       "server": "46.28.67.55",
       "server_port": 443,
       "uuid": "d1a6a033-fdbd-46a6-a177-3370ba042b9f",
@@ -45,8 +37,7 @@
       "outbounds": [
         "auto",
         "🇷🇴 罗马尼亚 (Romania) 01 - cr7",
-        "🇷🇴 罗马尼亚 (Romania) 02 - cr7",
-        "🇷🇴 罗马尼亚 (Romania) 03 - cr7"
+        "🇷🇴 罗马尼亚 (Romania) 02 - cr7"
       ]
     },
     {
@@ -54,8 +45,7 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇴 罗马尼亚 (Romania) 01 - cr7",
-        "🇷🇴 罗马尼亚 (Romania) 02 - cr7",
-        "🇷🇴 罗马尼亚 (Romania) 03 - cr7"
+        "🇷🇴 罗马尼亚 (Romania) 02 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
