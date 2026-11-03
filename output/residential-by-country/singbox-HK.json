@@ -4,23 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🌐 其他地区 (Other) 01 - cr7",
-      "server": "www.ubuntuupdates.com",
+      "type": "anytls",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - cr7",
+      "server": "56481.df6h451rh.xin",
       "server_port": 443,
-      "uuid": "83b09a64-1eaf-4c4d-89ed-866d4b6b8115",
-      "security": "auto",
+      "password": "0324fbc29561",
       "tls": {
         "enabled": true,
-        "server_name": "www.ubuntuupdates.com",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/truth",
-        "headers": {
-          "Host": "www.ubuntuupdates.com"
-        }
+        "server_name": "images.ctfassets.net",
+        "insecure": true
       }
     },
     {
@@ -28,14 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - cr7"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - cr7"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - cr7"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
