@@ -38,63 +38,6 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 04 - cr7",
-      "server": "129.153.71.28",
-      "server_port": 28863,
-      "uuid": "3e956106-7f92-4cbf-bf77-715d3890fa84",
-      "tls": {
-        "enabled": true,
-        "server_name": "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 05 - cr7",
-      "server": "5.75.195.83",
-      "server_port": 56879,
-      "uuid": "f8847ac2-e586-400f-841b-00081ea4592e",
-      "tls": {
-        "enabled": true,
-        "server_name": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 06 - cr7",
-      "server": "95.174.68.188",
-      "server_port": 14430,
-      "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
-      "transport": {
-        "type": "ws",
-        "path": "/vless"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 07 - cr7",
       "server": "84.235.244.108",
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
@@ -114,10 +57,7 @@
         "🇦🇪 阿联酋 (UAE) 01 - cr7",
         "🇦🇪 阿联酋 (UAE) 02 - cr7",
         "🇦🇪 阿联酋 (UAE) 03 - cr7",
-        "🇦🇪 阿联酋 (UAE) 04 - cr7",
-        "🇦🇪 阿联酋 (UAE) 05 - cr7",
-        "🇦🇪 阿联酋 (UAE) 06 - cr7",
-        "🇦🇪 阿联酋 (UAE) 07 - cr7"
+        "🇦🇪 阿联酋 (UAE) 04 - cr7"
       ]
     },
     {
@@ -127,10 +67,7 @@
         "🇦🇪 阿联酋 (UAE) 01 - cr7",
         "🇦🇪 阿联酋 (UAE) 02 - cr7",
         "🇦🇪 阿联酋 (UAE) 03 - cr7",
-        "🇦🇪 阿联酋 (UAE) 04 - cr7",
-        "🇦🇪 阿联酋 (UAE) 05 - cr7",
-        "🇦🇪 阿联酋 (UAE) 06 - cr7",
-        "🇦🇪 阿联酋 (UAE) 07 - cr7"
+        "🇦🇪 阿联酋 (UAE) 04 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
