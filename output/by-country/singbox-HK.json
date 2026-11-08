@@ -22,37 +22,83 @@
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 - cr7",
-      "server": "202.146.222.89",
+      "server": "202.146.222.174",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https://t.me/clashv8",
+        "server_name": "https%3a%2f%2ft.me%2fwangcai2",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 03 - cr7",
-      "server": "202.146.222.174",
+      "server": "202.146.222.89",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https%3a%2f%2ft.me%2foneclickvpnkeys",
+        "server_name": "https://t.me/clashv8\\u0001f1e8\\u0001f1f3",
         "insecure": true
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇭🇰 中国香港 (Hong Kong) 04 - cr7",
-      "server": "202.146.222.29",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "server": "dddz-3-z.473221.xyz",
+      "server_port": 13212,
+      "uuid": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "https%253a%252f%252ft.me%252fwangcai2%25d1%2580%25d2%25b9%25d2%25af%25d1%2591%25d1%2580%25d2%25b9%25d2%25af%25d1%2596",
-        "insecure": true
+        "server_name": "v1-dy.ixigua.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4VguZbm-S2NkLpi7gLDsQMv2eDXP2LucxsvTiEt98yY",
+          "short_id": "961f7127a015ba"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - cr7",
+      "server": "152.175.6.229",
+      "server_port": 31884,
+      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk010.zestapp778.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - cr7",
+      "server": "165.154.63.139",
+      "server_port": 443,
+      "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amazon.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ",
+          "short_id": "ca4aedd4"
+        }
       }
     },
     {
@@ -63,7 +109,9 @@
         "🇭🇰 中国香港 (Hong Kong) 01 - cr7",
         "🇭🇰 中国香港 (Hong Kong) 02 - cr7",
         "🇭🇰 中国香港 (Hong Kong) 03 - cr7",
-        "🇭🇰 中国香港 (Hong Kong) 04 - cr7"
+        "🇭🇰 中国香港 (Hong Kong) 04 - cr7",
+        "🇭🇰 中国香港 (Hong Kong) 05 - cr7",
+        "🇭🇰 中国香港 (Hong Kong) 06 - cr7"
       ]
     },
     {
@@ -73,7 +121,9 @@
         "🇭🇰 中国香港 (Hong Kong) 01 - cr7",
         "🇭🇰 中国香港 (Hong Kong) 02 - cr7",
         "🇭🇰 中国香港 (Hong Kong) 03 - cr7",
-        "🇭🇰 中国香港 (Hong Kong) 04 - cr7"
+        "🇭🇰 中国香港 (Hong Kong) 04 - cr7",
+        "🇭🇰 中国香港 (Hong Kong) 05 - cr7",
+        "🇭🇰 中国香港 (Hong Kong) 06 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
