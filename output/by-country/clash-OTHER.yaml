@@ -5,31 +5,50 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - cr7
-  server: 162.159.236.61
-  port: 8443
+  server: cf.090227.xyz
+  port: 443
   udp: true
-  type: vless
-  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: moz.ar-marz.fun
+  servername: vmess.lbw666.dpdns.org
   skip-cert-verify: false
-  client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /man
+    path: /ws
     headers:
-      Host: moz.ar-marz.fun
+      Host: vmess.lbw666.dpdns.org
+- name: 🌐 其他地区 (Other) 02 - cr7
+  server: cf.090227.xyz
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🌐 其他地区 (Other) 01 - cr7
+  - 🌐 其他地区 (Other) 02 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🌐 其他地区 (Other) 01 - cr7
+  - 🌐 其他地区 (Other) 02 - cr7
 rules:
 - MATCH,PROXIES

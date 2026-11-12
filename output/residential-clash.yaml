@@ -4,26 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇩🇪 德国 (Germany) 01 (移动家宽) - cr7
-  server: 172.66.47.158
-  port: 443
-  udp: true
-  type: trojan
-  password: Nd2bFutZK2ma29bYqC@z
-  sni: 4oKhrijUyjyTFlnvoWhL3ZFW5wSGI34O.PAGeS.DeV
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /tr/2W6ONoBA1CTMk80znuAVgQ9dvWey2KD8?ed=2560
-- name: 🇺🇸 美国 (United States) 02 (移动家宽) - cr7
-  server: us001.zestapp778.com
-  port: 57277
-  udp: true
-  type: trojan
-  password: 5t6i121em5lkmsmk
-  sni: us001.zestapp778.com
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - cr7
+- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - cr7
   server: 49.254.204.133
   port: 1774
   udp: true
@@ -35,16 +16,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇩🇪 德国 (Germany) 01 (移动家宽) - cr7
-  - 🇺🇸 美国 (United States) 02 (移动家宽) - cr7
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - cr7
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇩🇪 德国 (Germany) 01 (移动家宽) - cr7
-  - 🇺🇸 美国 (United States) 02 (移动家宽) - cr7
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - cr7
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - cr7
 rules:
 - MATCH,PROXIES
