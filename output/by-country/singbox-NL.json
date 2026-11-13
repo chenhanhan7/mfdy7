@@ -14,54 +14,30 @@
     {
       "type": "shadowsocks",
       "tag": "🇳🇱 荷兰 (Netherlands) 02 - cr7",
-      "server": "82.38.31.204",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 (Netherlands) 03 - cr7",
-      "server": "82.38.31.192",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 (Netherlands) 04 - cr7",
-      "server": "82.38.31.49",
+      "server": "82.38.31.39",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
       "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 (Netherlands) 03 - cr7",
+      "server": "193.29.139.168",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "QCXDxuDlTTMD7jtgHUjIoj"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 (Netherlands) 04 - cr7",
+      "server": "193.29.139.235",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇳🇱 荷兰 (Netherlands) 05 - cr7",
-      "server": "82.38.31.201",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 (Netherlands) 06 - cr7",
-      "server": "82.38.31.195",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 (Netherlands) 07 - cr7",
-      "server": "82.38.31.208",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 (Netherlands) 08 - cr7",
       "server": "82.38.31.176",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -69,7 +45,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 (Netherlands) 09 - cr7",
+      "tag": "🇳🇱 荷兰 (Netherlands) 06 - cr7",
       "server": "82.38.31.61",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -77,39 +53,47 @@
     },
     {
       "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 (Netherlands) 07 - cr7",
+      "server": "82.38.31.212",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 (Netherlands) 08 - cr7",
+      "server": "193.29.139.198",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 (Netherlands) 09 - cr7",
+      "server": "82.38.31.208",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇳🇱 荷兰 (Netherlands) 10 - cr7",
-      "server": "82.38.31.62",
+      "server": "82.38.31.218",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 (Netherlands) 11 - cr7",
+      "server": "82.38.31.156",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 (Netherlands) 11 - cr7",
-      "server": "82.38.31.186",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇳🇱 荷兰 (Netherlands) 12 - cr7",
-      "server": "193.29.139.132",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 (Netherlands) 13 - cr7",
-      "server": "82.38.31.213",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 (Netherlands) 14 - cr7",
       "server": "193.29.139.234",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -117,11 +101,27 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 (Netherlands) 15 - cr7",
-      "server": "82.38.31.165",
-      "server_port": 443,
+      "tag": "🇳🇱 荷兰 (Netherlands) 13 - cr7",
+      "server": "82.38.31.187",
+      "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 (Netherlands) 14 - cr7",
+      "server": "82.38.31.215",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 (Netherlands) 15 - cr7",
+      "server": "82.38.31.179",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
     },
     {
       "type": "shadowsocks",
@@ -134,15 +134,15 @@
     {
       "type": "shadowsocks",
       "tag": "🇳🇱 荷兰 (Netherlands) 17 - cr7",
-      "server": "82.38.31.156",
+      "server": "82.38.31.201",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
     },
     {
       "type": "shadowsocks",
       "tag": "🇳🇱 荷兰 (Netherlands) 18 - cr7",
-      "server": "82.38.31.39",
+      "server": "82.38.31.49",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
@@ -150,110 +150,58 @@
     {
       "type": "shadowsocks",
       "tag": "🇳🇱 荷兰 (Netherlands) 19 - cr7",
-      "server": "82.38.31.66",
-      "server_port": 8080,
+      "server": "82.38.31.162",
+      "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
       "type": "shadowsocks",
       "tag": "🇳🇱 荷兰 (Netherlands) 20 - cr7",
-      "server": "82.38.31.46",
+      "server": "82.38.31.204",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 (Netherlands) 21 - cr7",
+      "server": "82.38.31.198",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 荷兰 (Netherlands) 22 - cr7",
+      "server": "82.38.31.62",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 (Netherlands) 21 - cr7",
-      "server": "82.38.31.179",
+      "tag": "🇳🇱 荷兰 (Netherlands) 23 - cr7",
+      "server": "82.38.31.190",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "k1dBOmOB4oqi7Ump37a1bQ"
     },
     {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 22 - cr7",
-      "server": "51.158.206.93",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": ""
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 23 - cr7",
-      "server": "51.158.206.103",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        }
-      }
-    },
-    {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇳🇱 荷兰 (Netherlands) 24 - cr7",
-      "server": "51.158.206.26",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        }
-      }
+      "server": "158.173.20.208",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇳🇱 荷兰 (Netherlands) 25 - cr7",
-      "server": "51.158.206.20",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": ""
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        }
-      }
+      "server": "82.38.31.66",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
       "type": "vless",
@@ -300,7 +248,7 @@
     {
       "type": "vless",
       "tag": "🇳🇱 荷兰 (Netherlands) 28 - cr7",
-      "server": "51.158.206.86",
+      "server": "51.158.206.87",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "flow": "xtls-rprx-vision",
@@ -314,47 +262,13 @@
         "reality": {
           "enabled": true,
           "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
+          "short_id": ""
         }
       }
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇳🇱 荷兰 (Netherlands) 29 - cr7",
-      "server": "188.166.81.135",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 30 - cr7",
-      "server": "51.158.206.8",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 31 - cr7",
       "server": "51.158.206.96",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -375,21 +289,71 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 32 - cr7",
-      "server": "177.177.215.45",
-      "server_port": 444,
-      "uuid": "254f28cb-d0c1-41e9-a06b-f2155213ff04",
+      "tag": "🇳🇱 荷兰 (Netherlands) 30 - cr7",
+      "server": "51.158.206.103",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ams2.shtil.io",
-        "insecure": false
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 荷兰 (Netherlands) 31 - cr7",
+      "server": "51.158.206.8",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 荷兰 (Netherlands) 32 - cr7",
+      "server": "51.158.206.93",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇳🇱 荷兰 (Netherlands) 33 - cr7",
-      "server": "51.158.206.80",
+      "server": "51.158.206.26",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "flow": "xtls-rprx-vision",
@@ -410,7 +374,7 @@
     {
       "type": "vless",
       "tag": "🇳🇱 荷兰 (Netherlands) 34 - cr7",
-      "server": "51.158.206.98",
+      "server": "51.158.206.86",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "flow": "xtls-rprx-vision",
@@ -440,7 +404,7 @@
         "server_name": "fuck.rkn",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": ""
         },
         "reality": {
           "enabled": true,
@@ -452,28 +416,7 @@
     {
       "type": "vless",
       "tag": "🇳🇱 荷兰 (Netherlands) 36 - cr7",
-      "server": "51.158.206.87",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 37 - cr7",
-      "server": "51.158.206.19",
+      "server": "51.158.206.98",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "flow": "xtls-rprx-vision",
@@ -493,7 +436,41 @@
     },
     {
       "type": "vless",
+      "tag": "🇳🇱 荷兰 (Netherlands) 37 - cr7",
+      "server": "51.158.206.80",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": ""
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "🇳🇱 荷兰 (Netherlands) 38 - cr7",
+      "server": "188.166.81.135",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 荷兰 (Netherlands) 39 - cr7",
       "server": "51.158.206.12",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -513,92 +490,28 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇳🇱 荷兰 (Netherlands) 39 - cr7",
-      "server": "66.163.127.215",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "courses.indyourperfectremotetechjobfromthecomfortofhome.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇳🇱 荷兰 (Netherlands) 40 - cr7",
-      "server": "66.163.127.154",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.indyourperfectremotetechjobfromthecomfortofhome.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 41 - cr7",
-      "server": "206.166.251.70",
-      "server_port": 52901,
-      "uuid": "510a4a35-54ac-41fa-a972-8d010995c8f7",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇳🇱 荷兰 (Netherlands) 40 - cr7",
+      "server": "77.246.98.208",
+      "server_port": 24480,
+      "uuid": "5d87eda7-c3d5-406c-9648-49b975888f98",
       "tls": {
         "enabled": true,
-        "server_name": "aws.amazon.com",
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Wllsn04C4xvPzega8LO2P4t-2wsV_YIdDCYO5w_NrSQ",
-          "short_id": "8770eaf663"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇳🇱 荷兰 (Netherlands) 42 - cr7",
-      "server": "66.163.127.107",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "blog.indyourperfectremotetechjobfromthecomfortofhome.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 43 - cr7",
-      "server": "172.67.155.222",
-      "server_port": 443,
-      "uuid": "82b279c6-5cba-3a96-f8bd-780a00000035",
-      "tls": {
-        "enabled": true,
-        "server_name": "pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/sync",
-        "headers": {
-          "Host": "pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev"
+          "public_key": "S5Gbg77tgvLgCKtVB7JeFX2_JpJlhb82XbLI-tBPjlY",
+          "short_id": "1890babea56f32"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 44 - cr7",
+      "tag": "🇳🇱 荷兰 (Netherlands) 41 - cr7",
       "server": "130.12.242.106",
       "server_port": 443,
       "uuid": "bc058e69-0444-4c7b-98da-bd67f0b143da",
@@ -608,13 +521,59 @@
         "server_name": "deepl.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
           "public_key": "vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8",
           "short_id": "15affa0af66dfc79"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 荷兰 (Netherlands) 42 - cr7",
+      "server": "51.158.206.20",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 荷兰 (Netherlands) 43 - cr7",
+      "server": "177.177.215.45",
+      "server_port": 444,
+      "uuid": "254f28cb-d0c1-41e9-a06b-f2155213ff04",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ams2.shtil.io",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇳🇱 荷兰 (Netherlands) 44 - cr7",
+      "server": "66.163.127.225",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.indyourperfectremotetechjobfromthecomfortofhome.com",
+        "insecure": false
       }
     },
     {
@@ -629,7 +588,7 @@
         "server_name": "fuck.rkn",
         "utls": {
           "enabled": true,
-          "fingerprint": ""
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -641,6 +600,27 @@
     {
       "type": "vless",
       "tag": "🇳🇱 荷兰 (Netherlands) 46 - cr7",
+      "server": "free-amsterdam-node-1.cloudwidecdn.com",
+      "server_port": 443,
+      "uuid": "44ae52b9-76fc-444d-8e43-186b4384b80a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU",
+          "short_id": "1d86d17709852910"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 荷兰 (Netherlands) 47 - cr7",
       "server": "87.199.205.28",
       "server_port": 443,
       "uuid": "501a2da5-cb22-4a3f-915e-e3b821d1d62d",
@@ -661,7 +641,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 (Netherlands) 47 - cr7",
+      "tag": "🇳🇱 荷兰 (Netherlands) 48 - cr7",
       "server": "177.202.64.67",
       "server_port": 1080,
       "method": "aes-256-gcm",
@@ -669,201 +649,53 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 48 - cr7",
-      "server": "89.105.195.149",
-      "server_port": 443,
-      "uuid": "1653818d-532e-46be-b825-384107fb7c3a",
-      "tls": {
-        "enabled": true,
-        "server_name": "data.mediacorphub.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "home.v2.MetricsService"
-      }
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇳🇱 荷兰 (Netherlands) 49 - cr7",
-      "server": "82.38.31.162",
+      "server": "104.171.135.229",
       "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇳🇱 荷兰 (Netherlands) 50 - cr7",
-      "server": "212.34.137.105",
-      "server_port": 443,
-      "password": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
-      "tls": {
-        "enabled": true,
-        "server_name": "shorts.blog-forme.ru",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 51 - cr7",
-      "server": "86.54.28.75",
-      "server_port": 443,
-      "uuid": "44ae52b9-76fc-444d-8e43-186b4384b80a",
+      "uuid": "Fluffy_VPN-Oth8rOq3",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "absolute-disaster.org",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU",
-          "short_id": "1d86d17709852910"
+          "public_key": "mpo4BIcoWiMXAQGt5a8IJ4MFkPJQyLC50dO_bXzC7z0",
+          "short_id": ""
         }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 荷兰 (Netherlands) 52 - cr7",
-      "server": "82.38.31.215",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 53 - cr7",
-      "server": "89.105.195.147",
-      "server_port": 443,
-      "uuid": "1653818d-532e-46be-b825-384107fb7c3a",
-      "tls": {
-        "enabled": true,
-        "server_name": "tracker.mediacorphub.org",
-        "insecure": false,
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "home.v1.ObjectService"
       }
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 54 - cr7",
-      "server": "images.mediacorphub.org",
-      "server_port": 443,
-      "uuid": "1653818d-532e-46be-b825-384107fb7c3a",
+      "tag": "🇳🇱 荷兰 (Netherlands) 50 - cr7",
+      "server": "51.158.206.19",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "images.mediacorphub.org",
-        "insecure": false,
+        "server_name": "fuck.rkn",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": ""
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "stats.v2.StreamService"
       }
     },
     {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 55 - cr7",
-      "server": "89.105.195.151",
-      "server_port": 443,
-      "uuid": "1653818d-532e-46be-b825-384107fb7c3a",
-      "tls": {
-        "enabled": true,
-        "server_name": "edge.mediacorphub.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "hub.v1.ObjectService"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 56 - cr7",
-      "server": "rpc.mediacorphub.org",
-      "server_port": 443,
-      "uuid": "1653818d-532e-46be-b825-384107fb7c3a",
-      "tls": {
-        "enabled": true,
-        "server_name": "rpc.mediacorphub.org",
-        "insecure": false,
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "api.v1.FeedService"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 57 - cr7",
-      "server": "89.105.195.148",
-      "server_port": 443,
-      "uuid": "1653818d-532e-46be-b825-384107fb7c3a",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.mediacorphub.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "gw.v2.PushService"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 荷兰 (Netherlands) 58 - cr7",
-      "server": "212.113.116.181",
-      "server_port": 443,
-      "uuid": "1d46250c-f015-439d-a7fd-c4d9e2a4c63d",
-      "tls": {
-        "enabled": true,
-        "server_name": "de.oncloudvpn.com",
-        "insecure": false,
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc"
-      }
+      "type": "vmess",
+      "tag": "🇳🇱 荷兰 (Netherlands) 51 - cr7",
+      "server": "123466.ru",
+      "server_port": 26032,
+      "uuid": "804334e2-04ca-434c-8311-3ccee8218175",
+      "security": "auto"
     },
     {
       "type": "selector",
@@ -920,14 +752,7 @@
         "🇳🇱 荷兰 (Netherlands) 48 - cr7",
         "🇳🇱 荷兰 (Netherlands) 49 - cr7",
         "🇳🇱 荷兰 (Netherlands) 50 - cr7",
-        "🇳🇱 荷兰 (Netherlands) 51 - cr7",
-        "🇳🇱 荷兰 (Netherlands) 52 - cr7",
-        "🇳🇱 荷兰 (Netherlands) 53 - cr7",
-        "🇳🇱 荷兰 (Netherlands) 54 - cr7",
-        "🇳🇱 荷兰 (Netherlands) 55 - cr7",
-        "🇳🇱 荷兰 (Netherlands) 56 - cr7",
-        "🇳🇱 荷兰 (Netherlands) 57 - cr7",
-        "🇳🇱 荷兰 (Netherlands) 58 - cr7"
+        "🇳🇱 荷兰 (Netherlands) 51 - cr7"
       ]
     },
     {
@@ -984,14 +809,7 @@
         "🇳🇱 荷兰 (Netherlands) 48 - cr7",
         "🇳🇱 荷兰 (Netherlands) 49 - cr7",
         "🇳🇱 荷兰 (Netherlands) 50 - cr7",
-        "🇳🇱 荷兰 (Netherlands) 51 - cr7",
-        "🇳🇱 荷兰 (Netherlands) 52 - cr7",
-        "🇳🇱 荷兰 (Netherlands) 53 - cr7",
-        "🇳🇱 荷兰 (Netherlands) 54 - cr7",
-        "🇳🇱 荷兰 (Netherlands) 55 - cr7",
-        "🇳🇱 荷兰 (Netherlands) 56 - cr7",
-        "🇳🇱 荷兰 (Netherlands) 57 - cr7",
-        "🇳🇱 荷兰 (Netherlands) 58 - cr7"
+        "🇳🇱 荷兰 (Netherlands) 51 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
