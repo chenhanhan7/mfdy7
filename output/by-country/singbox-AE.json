@@ -35,7 +35,10 @@
       "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
       "transport": {
         "type": "ws",
-        "path": "/vless"
+        "path": "/vless",
+        "headers": {
+          "Host": "95.174.68.188"
+        }
       }
     },
     {
@@ -49,6 +52,20 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 05 - cr7",
+      "server": "84.235.244.108",
+      "server_port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -56,7 +73,8 @@
         "🇦🇪 阿联酋 (UAE) 01 - cr7",
         "🇦🇪 阿联酋 (UAE) 02 - cr7",
         "🇦🇪 阿联酋 (UAE) 03 - cr7",
-        "🇦🇪 阿联酋 (UAE) 04 - cr7"
+        "🇦🇪 阿联酋 (UAE) 04 - cr7",
+        "🇦🇪 阿联酋 (UAE) 05 - cr7"
       ]
     },
     {
@@ -66,7 +84,8 @@
         "🇦🇪 阿联酋 (UAE) 01 - cr7",
         "🇦🇪 阿联酋 (UAE) 02 - cr7",
         "🇦🇪 阿联酋 (UAE) 03 - cr7",
-        "🇦🇪 阿联酋 (UAE) 04 - cr7"
+        "🇦🇪 阿联酋 (UAE) 04 - cr7",
+        "🇦🇪 阿联酋 (UAE) 05 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -46,45 +46,13 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇸🇪 瑞典 (Sweden) 04 - cr7",
-      "server": "62.93.166.184",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇸🇪 瑞典 (Sweden) 05 - cr7",
-      "server": "70.34.212.124",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "AxIYWtskJWIIaefW"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇸🇪 瑞典 (Sweden) 06 - cr7",
-      "server": "62.182.193.228",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "2e555e46dbc421452416834962fd014f"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇸🇪 瑞典 (Sweden) 01 - cr7",
         "🇸🇪 瑞典 (Sweden) 02 - cr7",
-        "🇸🇪 瑞典 (Sweden) 03 - cr7",
-        "🇸🇪 瑞典 (Sweden) 04 - cr7",
-        "🇸🇪 瑞典 (Sweden) 05 - cr7",
-        "🇸🇪 瑞典 (Sweden) 06 - cr7"
+        "🇸🇪 瑞典 (Sweden) 03 - cr7"
       ]
     },
     {
@@ -93,10 +61,7 @@
       "outbounds": [
         "🇸🇪 瑞典 (Sweden) 01 - cr7",
         "🇸🇪 瑞典 (Sweden) 02 - cr7",
-        "🇸🇪 瑞典 (Sweden) 03 - cr7",
-        "🇸🇪 瑞典 (Sweden) 04 - cr7",
-        "🇸🇪 瑞典 (Sweden) 05 - cr7",
-        "🇸🇪 瑞典 (Sweden) 06 - cr7"
+        "🇸🇪 瑞典 (Sweden) 03 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
