@@ -5,21 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 01 - cr7",
-      "server": "194.87.109.106",
+      "tag": "🇺🇦 乌克兰 (Ukraine) 01 - cr7",
+      "server": "83.147.18.75",
       "server_port": 443,
-      "uuid": "d9274255-edf4-4944-bc62-6ef35cd2de40",
+      "uuid": "5de0c218-0138-45d8-94d2-c2c3f37a1a6d",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "currant.asynchronous.site",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
+        "server_name": "www.bing.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc",
+          "short_id": "7f1e29593aa94ad1"
         }
       }
     },
@@ -28,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - cr7"
+        "🇺🇦 乌克兰 (Ukraine) 01 - cr7"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - cr7"
+        "🇺🇦 乌克兰 (Ukraine) 01 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
