@@ -6,18 +6,6 @@
     {
       "type": "hysteria2",
       "tag": "🇰🇷 韩国 (South Korea) 01 - cr7",
-      "server": "152.70.237.123",
-      "server_port": 2053,
-      "password": "maintell",
-      "tls": {
-        "enabled": true,
-        "server_name": "152.70.237.123",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇰🇷 韩国 (South Korea) 02 - cr7",
       "server": "132.226.226.189",
       "server_port": 50160,
       "password": "1671a252e2a97dc2bda4e515475931da",
@@ -29,13 +17,25 @@
     },
     {
       "type": "trojan",
-      "tag": "🇰🇷 韩国 (South Korea) 03 - cr7",
+      "tag": "🇰🇷 韩国 (South Korea) 02 - cr7",
       "server": "158.247.253.243",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
         "server_name": "connectgraduateswithjobopeningsandgrowprofessionally.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇰🇷 韩国 (South Korea) 03 - cr7",
+      "server": "152.69.231.175",
+      "server_port": 50160,
+      "password": "1beb216e3f60aea9555dae60d219a5ca",
+      "tls": {
+        "enabled": true,
+        "server_name": "152.69.231.175",
         "insecure": true
       }
     },
@@ -54,12 +54,12 @@
     {
       "type": "hysteria2",
       "tag": "🇰🇷 韩国 (South Korea) 05 - cr7",
-      "server": "152.69.231.175",
-      "server_port": 50160,
-      "password": "1beb216e3f60aea9555dae60d219a5ca",
+      "server": "152.70.237.123",
+      "server_port": 2053,
+      "password": "maintell",
       "tls": {
         "enabled": true,
-        "server_name": "152.69.231.175",
+        "server_name": "152.70.237.123",
         "insecure": true
       }
     },
@@ -85,7 +85,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -93,14 +93,6 @@
           "short_id": "429499c03d4cc8a0"
         }
       }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇰🇷 韩国 (South Korea) 08 - cr7",
-      "server": "140.238.2.250",
-      "server_port": 443,
-      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
-      "security": "auto"
     },
     {
       "type": "selector",
@@ -113,8 +105,7 @@
         "🇰🇷 韩国 (South Korea) 04 - cr7",
         "🇰🇷 韩国 (South Korea) 05 - cr7",
         "🇰🇷 韩国 (South Korea) 06 - cr7",
-        "🇰🇷 韩国 (South Korea) 07 - cr7",
-        "🇰🇷 韩国 (South Korea) 08 - cr7"
+        "🇰🇷 韩国 (South Korea) 07 - cr7"
       ]
     },
     {
@@ -127,8 +118,7 @@
         "🇰🇷 韩国 (South Korea) 04 - cr7",
         "🇰🇷 韩国 (South Korea) 05 - cr7",
         "🇰🇷 韩国 (South Korea) 06 - cr7",
-        "🇰🇷 韩国 (South Korea) 07 - cr7",
-        "🇰🇷 韩国 (South Korea) 08 - cr7"
+        "🇰🇷 韩国 (South Korea) 07 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
