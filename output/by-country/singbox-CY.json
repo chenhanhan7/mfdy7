@@ -4,20 +4,25 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - cr7",
-      "server": "217.60.182.154",
+      "type": "vless",
+      "tag": "🇨🇾 塞浦路斯 (Cyprus) 01 - cr7",
+      "server": "132.243.212.204",
       "server_port": 443,
-      "password": "b36a14f8-fc3f-4142-968f-48031cf5f330",
+      "uuid": "352a250d-080b-47b5-b7db-f9f8fa31c551",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "hy2-eee-1.aloranode.top",
-        "insecure": false
+        "server_name": "10w0wjw.virtual-network.lol",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 02 - cr7",
+      "tag": "🇨🇾 塞浦路斯 (Cyprus) 02 - cr7",
       "server": "45.86.60.174",
       "server_port": 16443,
       "uuid": "13e541f3-d09d-4633-89df-8513db0ced20"
@@ -27,16 +32,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - cr7",
-        "🇪🇪 爱沙尼亚 (Estonia) 02 - cr7"
+        "🇨🇾 塞浦路斯 (Cyprus) 01 - cr7",
+        "🇨🇾 塞浦路斯 (Cyprus) 02 - cr7"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - cr7",
-        "🇪🇪 爱沙尼亚 (Estonia) 02 - cr7"
+        "🇨🇾 塞浦路斯 (Cyprus) 01 - cr7",
+        "🇨🇾 塞浦路斯 (Cyprus) 02 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

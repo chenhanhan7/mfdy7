@@ -4,16 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - cr7",
-      "server": "202.146.222.89",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https%3a%2f%2ft.me%2fclashv8%f0%9f%87%a8%f0%9f%87%b3",
-        "insecure": true
-      }
+      "server": "213.176.92.148",
+      "server_port": 40647,
+      "method": "aes-256-gcm",
+      "password": "DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY="
     },
     {
       "type": "hysteria2",
@@ -32,26 +28,58 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇭🇰 中国香港 (Hong Kong) 03 - cr7",
-      "server": "202.146.222.174",
+      "server": "fb00fe3d-toq2o0-tpkogt-1ryup.hk2.hyhuawei.com",
       "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "uuid": "3ee091ca-ab9c-11ef-a791-f23c9164ca5d",
       "tls": {
         "enabled": true,
-        "server_name": "https%3a%2f%2ft.me%2fwangcai2",
-        "insecure": true
+        "server_name": "download.windowsupdate.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo",
+          "short_id": ""
+        }
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 04 - cr7",
+      "server": "202.146.222.174",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https%3a%2f%2ft.me%2foneclickvpnkeys",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - cr7",
+      "server": "202.146.222.89",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https%3a%2f%2ft.me%2fclashv8%f0%9f%87%a8%f0%9f%87%b3",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - cr7",
       "server": "202.146.222.29",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https://t.me/wangcai2ⁿß",
+        "server_name": "https%3a%2f%2ft.me%2fwangcai2%d1%80%d2%b9%d2%af%d1%80%d2%b9%d2%af",
         "insecure": true
       }
     },
@@ -63,7 +91,9 @@
         "🇭🇰 中国香港 (Hong Kong) 01 - cr7",
         "🇭🇰 中国香港 (Hong Kong) 02 - cr7",
         "🇭🇰 中国香港 (Hong Kong) 03 - cr7",
-        "🇭🇰 中国香港 (Hong Kong) 04 - cr7"
+        "🇭🇰 中国香港 (Hong Kong) 04 - cr7",
+        "🇭🇰 中国香港 (Hong Kong) 05 - cr7",
+        "🇭🇰 中国香港 (Hong Kong) 06 - cr7"
       ]
     },
     {
@@ -73,7 +103,9 @@
         "🇭🇰 中国香港 (Hong Kong) 01 - cr7",
         "🇭🇰 中国香港 (Hong Kong) 02 - cr7",
         "🇭🇰 中国香港 (Hong Kong) 03 - cr7",
-        "🇭🇰 中国香港 (Hong Kong) 04 - cr7"
+        "🇭🇰 中国香港 (Hong Kong) 04 - cr7",
+        "🇭🇰 中国香港 (Hong Kong) 05 - cr7",
+        "🇭🇰 中国香港 (Hong Kong) 06 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
