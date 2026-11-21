@@ -6,7 +6,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇯🇵 日本 (Japan) 01 - cr7",
-      "server": "149.22.87.204",
+      "server": "149.22.87.240",
       "server_port": 443,
       "method": "aes-128-gcm",
       "password": "shadowsocks"
@@ -22,7 +22,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇯🇵 日本 (Japan) 03 - cr7",
-      "server": "149.22.87.240",
+      "server": "149.22.87.204",
       "server_port": 443,
       "method": "aes-128-gcm",
       "password": "shadowsocks"
@@ -30,36 +30,21 @@
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 04 - cr7",
-      "server": "172.105.203.15",
+      "server": "94.177.131.113",
       "server_port": 443,
-      "uuid": "c8c9b995-b4b9-4915-9c7d-dee94aa733ba",
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "tls": {
         "enabled": true,
-        "server_name": "itunes.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "HyAx05nhCz5mXxVxWXU1TrWRKdpYE0MHF4-V-LtyhTA",
-          "short_id": "0784b134"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "itunes.apple.com"
-        }
+        "server_name": "kuruish.org",
+        "insecure": false
       }
     },
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 05 - cr7",
-      "server": "45.76.222.108",
+      "server": "139.162.125.126",
       "server_port": 443,
-      "uuid": "bd95a04e-e3e1-460e-b89d-e9a693d393e0",
+      "uuid": "eb6cf336-03bd-4dac-9f2a-3e456389279e",
       "tls": {
         "enabled": true,
         "server_name": "itunes.apple.com",
@@ -69,8 +54,8 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "-_YzpVlKrn08il_kQdHxHTvJyWYAdetWN_IFRtvPgmE",
-          "short_id": "b5c85d2d"
+          "public_key": "mMLchVbQzhQ2bGV6wkg1LP5Q7eqL2hCVHHMT0B03dwg",
+          "short_id": "bd6e3e70"
         }
       },
       "transport": {
@@ -111,9 +96,9 @@
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 07 - cr7",
-      "server": "139.162.125.126",
+      "server": "172.105.203.15",
       "server_port": 443,
-      "uuid": "eb6cf336-03bd-4dac-9f2a-3e456389279e",
+      "uuid": "c8c9b995-b4b9-4915-9c7d-dee94aa733ba",
       "tls": {
         "enabled": true,
         "server_name": "itunes.apple.com",
@@ -123,8 +108,8 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "mMLchVbQzhQ2bGV6wkg1LP5Q7eqL2hCVHHMT0B03dwg",
-          "short_id": "bd6e3e70"
+          "public_key": "HyAx05nhCz5mXxVxWXU1TrWRKdpYE0MHF4-V-LtyhTA",
+          "short_id": "0784b134"
         }
       },
       "transport": {
@@ -138,9 +123,9 @@
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 08 - cr7",
-      "server": "172.104.86.181",
+      "server": "45.76.222.108",
       "server_port": 443,
-      "uuid": "010431f3-04f6-4404-a801-b93bf2e3c2b2",
+      "uuid": "bd95a04e-e3e1-460e-b89d-e9a693d393e0",
       "tls": {
         "enabled": true,
         "server_name": "itunes.apple.com",
@@ -150,8 +135,8 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "ujYDprigWFLxcj4BtitDNa-hoPjIbpSzrnEcqp3cgjk",
-          "short_id": "c8559ca1"
+          "public_key": "-_YzpVlKrn08il_kQdHxHTvJyWYAdetWN_IFRtvPgmE",
+          "short_id": "b5c85d2d"
         }
       },
       "transport": {
@@ -190,8 +175,35 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 10 - cr7",
+      "server": "172.104.86.181",
+      "server_port": 443,
+      "uuid": "010431f3-04f6-4404-a801-b93bf2e3c2b2",
+      "tls": {
+        "enabled": true,
+        "server_name": "itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ujYDprigWFLxcj4BtitDNa-hoPjIbpSzrnEcqp3cgjk",
+          "short_id": "c8559ca1"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "itunes.apple.com"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇯🇵 日本 (Japan) 11 - cr7",
       "server": "84.247.155.196",
       "server_port": 80,
       "method": "aes-256-gcm",
@@ -199,55 +211,46 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇯🇵 日本 (Japan) 11 - cr7",
-      "server": "8.211.175.236",
-      "server_port": 8443,
-      "password": "u63SxILNwtrQZ7Y1ZrFaZfsA",
+      "tag": "🇯🇵 日本 (Japan) 12 - cr7",
+      "server": "138.3.208.26",
+      "server_port": 50160,
+      "password": "184cdec28da5a09450803c8debcd2cc9",
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
+        "server_name": "138.3.208.26",
         "insecure": true
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 12 - cr7",
+      "tag": "🇯🇵 日本 (Japan) 13 - cr7",
       "server": "84.247.155.196",
       "server_port": 443,
       "method": "aes-256-gcm",
       "password": "3eOFeNssde7PYYMv"
     },
     {
-      "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 13 - cr7",
-      "server": "djj.zjlo.top",
-      "server_port": 23169,
-      "uuid": "3eb053cb-d6f8-4b31-8180-222e1cc6f8ff",
-      "flow": "xtls-rprx-vision",
+      "type": "hysteria2",
+      "tag": "🇯🇵 日本 (Japan) 14 - cr7",
+      "server": "8.211.175.236",
+      "server_port": 8443,
+      "password": "u63SxILNwtrQZ7Y1ZrFaZfsA",
       "tls": {
         "enabled": true,
-        "server_name": "djj.zjlo.top",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "8.211.175.236",
+        "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 14 - cr7",
-      "server": "172.67.217.240",
+      "tag": "🇯🇵 日本 (Japan) 15 - cr7",
+      "server": "104.17.210.74",
       "server_port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
         "enabled": true,
         "server_name": "jp3.yohototo.top",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": false
       },
       "transport": {
         "type": "ws",
@@ -275,7 +278,8 @@
         "🇯🇵 日本 (Japan) 11 - cr7",
         "🇯🇵 日本 (Japan) 12 - cr7",
         "🇯🇵 日本 (Japan) 13 - cr7",
-        "🇯🇵 日本 (Japan) 14 - cr7"
+        "🇯🇵 日本 (Japan) 14 - cr7",
+        "🇯🇵 日本 (Japan) 15 - cr7"
       ]
     },
     {
@@ -295,7 +299,8 @@
         "🇯🇵 日本 (Japan) 11 - cr7",
         "🇯🇵 日本 (Japan) 12 - cr7",
         "🇯🇵 日本 (Japan) 13 - cr7",
-        "🇯🇵 日本 (Japan) 14 - cr7"
+        "🇯🇵 日本 (Japan) 14 - cr7",
+        "🇯🇵 日本 (Japan) 15 - cr7"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

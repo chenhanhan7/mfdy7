@@ -17,7 +17,7 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.89
+  sni: t.me
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - cr7
   server: 202.146.222.29
@@ -25,17 +25,27 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vk.com
+  sni: https://t.me/wangcai2рҹүҹү
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - cr7
+  server: 152.32.254.68
+  port: 5010
+  udp: true
+  type: hysteria2
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: nas.aizhzo.com
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - cr7
   server: 202.146.222.174
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2fwangcai2
+  sni: https://t.me/oneclickvpnkeys
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - cr7
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - cr7
   server: 47.242.93.89
   port: 12012
   udp: true
@@ -53,6 +63,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 03 - cr7
   - 🇭🇰 中国香港 (Hong Kong) 04 - cr7
   - 🇭🇰 中国香港 (Hong Kong) 05 - cr7
+  - 🇭🇰 中国香港 (Hong Kong) 06 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -63,5 +74,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 03 - cr7
   - 🇭🇰 中国香港 (Hong Kong) 04 - cr7
   - 🇭🇰 中国香港 (Hong Kong) 05 - cr7
+  - 🇭🇰 中国香港 (Hong Kong) 06 - cr7
 rules:
 - MATCH,PROXIES
