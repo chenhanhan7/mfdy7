@@ -4,25 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇩 印尼 (Indonesia) 01 - cr7
-  server: 149.33.27.162
-  port: 443
+- name: 🇳🇴 挪威 (Norway) 01 - cr7
+  server: 185.213.23.63
+  port: 990
   udp: true
-  type: trojan
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  sni: i1tr.mateflora.com
-  skip-cert-verify: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇩 印尼 (Indonesia) 01 - cr7
+  - 🇳🇴 挪威 (Norway) 01 - cr7
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇩 印尼 (Indonesia) 01 - cr7
+  - 🇳🇴 挪威 (Norway) 01 - cr7
 rules:
 - MATCH,PROXIES
